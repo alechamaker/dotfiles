@@ -1,0 +1,4 @@
+pane	0	0	1	:*	0	:/mnt/c/Users/aoe/Desktop	1	vim	:vim add_county_data.py
+pane	0	0	1	:*	1	:/mnt/c/Users/aoe/Desktop	0	python3	:python3 add_county_data.py VIOLATION_IS_HEALTH_BASED_IND_Y_ALL.csv
+window	0	0	:vim	1	:*	0372,145x35,0,0[145x17,0,0,0,145x17,0,18,3]	:
+state	0	
