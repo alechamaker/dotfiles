@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/csv_to_data
+~MSle0~/HEAD
 
 # Last Substitute Search Pattern:
-~MSle0~&zipcty_path
+~MSle0&$
 
 # Last Substitute String:
-$ZIPCTY_PATH
+$':                               
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1641995750,,"q"
+|2,0,1649769626,,"q"
 :w
-|2,0,1641995523,,"w"
-:42
-|2,0,1641937950,,"42"
-:'<,'>s/zipcty_path/ZIPCTY_PATH/g
-|2,0,1641936382,,"'<,'>s/zipcty_path/ZIPCTY_PATH/g"
-:'<,'>s/water_path/WATER_PATH/g
-|2,0,1641936358,,"'<,'>s/water_path/WATER_PATH/g"
-:'<,'>s/all_path/ALL_PATH/g
-|2,0,1641936340,,"'<,'>s/all_path/ALL_PATH/g"
-:451
-|2,0,1641910529,,"451"
-:wq
-|2,0,1641850129,,"wq"
-:W
-|2,0,1641849816,,"W"
-:Lw
-|2,0,1641827768,,"Lw"
-:Ww
-|2,0,1641824044,,"Ww"
-:2
-|2,0,1641582311,,"2"
-:tabedit curl.sh
-|2,0,1641570574,,"tabedit curl.sh"
+|2,0,1649769409,,"w"
 :q!
-|2,0,1641569344,,"q!"
-:Q
-|2,0,1641478670,,"Q"
-:tabedit
-|2,0,1641405588,,"tabedit"
-:jkkkj
-|2,0,1641403783,,"jkkkj"
-:'<,'>:::
-|2,0,1641403783,,"'<,'>:::"
-:'<,'>s/df/dfr/g
-|2,0,1641403557,,"'<,'>s/df/dfr/g"
-:'<,'>s/csv_county_path/CSV_CHRON_COUNTY_PATH/g
-|2,0,1641401460,,"'<,'>s/csv_county_path/CSV_CHRON_COUNTY_PATH/g"
-:'<,'>s/csv_state_path/CSV_CHRON_STATE_PATH/g
-|2,0,1641401444,,"'<,'>s/csv_state_path/CSV_CHRON_STATE_PATH/g"
-:'<,'>s/market_sat_path/
-|2,0,1641401341,,"'<,'>s/market_sat_path/"
-:'<,'>s/csv_county_path/CSV_COUNTY_CHRON_PATH/g
-|2,0,1641401297,,"'<,'>s/csv_county_path/CSV_COUNTY_CHRON_PATH/g"
-:'<,'>s/pop_xls_path/POP_XLS_PATH/g
-|2,0,1641401225,,"'<,'>s/pop_xls_path/POP_XLS_PATH/g"
-:393
-|2,0,1641401201,,"393"
-:'<,'>s/xls_path/pop_xls_path/g
-|2,0,1641401180,,"'<,'>s/xls_path/pop_xls_path/g"
-:FRenameClass transform Transform
-|2,0,1641400885,,"FRenameClass transform Transform"
-::tabedit curl.sh
-|2,0,1641398996,,":tabedit curl.sh"
-:tabedit grab.py
-|2,0,1641396625,,"tabedit grab.py"
+|2,0,1649683638,,"q!"
+:PlugInstall
+|2,0,1649683631,,"PlugInstall"
+:tabedit ~/.vimrc
+|2,0,1649683524,,"tabedit ~/.vimrc"
 :qa
-|2,0,1641331837,,"qa"
-:380
-|2,0,1641329846,,"380"
-:24
-|2,0,1641328487,,"24"
-:'<,'>s/xls_path/json_path/g
-|2,0,1641315209,,"'<,'>s/xls_path/json_path/g"
-:tabedit handler.py
-|2,0,1641306591,,"tabedit handler.py"
-:tabedit data_base.py
-|2,0,1641301909,,"tabedit data_base.py"
-:72
-|2,0,1641300583,,"72"
-::w
-|2,0,1641240413,,":w"
-:tabedit transform.py
-|2,0,1641230374,,"tabedit transform.py"
-:1
-|2,0,1641237196,,"1"
-:'<,'>s/beneficiaries/benefs/g
-|2,0,1641215678,,"'<,'>s/beneficiaries/benefs/g"
-:'<,'>s/eligible/elig/g
-|2,0,1641215647,,"'<,'>s/eligible/elig/g"
-:'<,'>s/percentage/pct/g
-|2,0,1641215625,,"'<,'>s/percentage/pct/g"
-:'<,'>s/number/num/g
-|2,0,1641215599,,"'<,'>s/number/num/g"
-:'<,'>:s/\%vnumber/num/g
-|2,0,1641215559,,"'<,'>:s/\\%vnumber/num/g"
-:'<,'>s/\%vnumber%v/num/g
-|2,0,1641215528,,"'<,'>s/\\%vnumber%v/num/g"
-:ww
-|2,0,1640879055,,"ww"
-:NERDTree
-|2,0,1640797999,,"NERDTree"
-:tabedit ../usda_data_loader/Dockerfile
-|2,0,1640727166,,"tabedit ../usda_data_loader/Dockerfile"
-:tabedit ../nics_data_loader/Dockerfile
-|2,0,1640727144,,"tabedit ../nics_data_loader/Dockerfile"
-:qA
-|2,0,1640727058,,"qA"
+|2,0,1649443030,,"qa"
+:tabedit Dockerfile
+|2,0,1649424818,,"tabedit Dockerfile"
+:tabedit sqlsvr_push/Dockerfile
+|2,0,1649424778,,"tabedit sqlsvr_push/Dockerfile"
+:tabedit docker-compose.sql.yml
+|2,0,1649422188,,"tabedit docker-compose.sql.yml"
+:tabedit docker-compose.utility.yml
+|2,0,1649421965,,"tabedit docker-compose.utility.yml"
+:tabedit ../backend/Dockerfile
+|2,0,1649441931,,"tabedit ../backend/Dockerfile"
+:we
+|2,0,1649428297,,"we"
+:215
+|2,0,1649427677,,"215"
+:264
+|2,0,1649427582,,"264"
+:297
+|2,0,1649427488,,"297"
+:tabedit 297
+|2,0,1649427483,,"tabedit 297"
+:261
+|2,0,1649427450,,"261"
+:tabedit tasks.py
+|2,0,1649427448,,"tabedit tasks.py"
+:200
+|2,0,1649427347,,"200"
+:252
+|2,0,1649427233,,"252"
+:271
+|2,0,1649427183,,"271"
+:286
+|2,0,1649427091,,"286"
+:313
+|2,0,1649427000,,"313"
+:341
+|2,0,1649426855,,"341"
+:333
+|2,0,1649426777,,"333"
+:tabedit database.py
+|2,0,1649426772,,"tabedit database.py"
+:76
+|2,0,1649426586,,"76"
+:82
+|2,0,1649426466,,"82"
+:'<,'>s/test_table/TestDBTable
+|2,0,1649435227,,"'<,'>s/test_table/TestDBTable"
+:tabedit test_mssql.py
+|2,0,1649434480,,"tabedit test_mssql.py"
+:s
+|2,0,1649432401,,"s"
+:tabedit ../src/common/crud_table.py
+|2,0,1649431202,,"tabedit ../src/common/crud_table.py"
+:'<,'>q
+|2,0,1649431071,,"'<,'>q"
+:100
+|2,0,1649430822,,"100"
+:315
+|2,0,1649430796,,"315"
+:228
+|2,0,1649430782,,"228"
+:128
+|2,0,1649430766,,"128"
+:tabedit crud_table.py
+|2,0,1649430759,,"tabedit crud_table.py"
+:tabedit ~/.bashrc
+|2,0,1649430613,,"tabedit ~/.bashrc"
+:tabedit ../default.env
+|2,0,1649262500,,"tabedit ../default.env"
+:41
+|2,0,1649261756,,"41"
+:Q
+|2,0,1649261356,,"Q"
+:tabedit src/database.py
+|2,0,1649256362,,"tabedit src/database.py"
+:qa!
+|2,0,1649252240,,"qa!"
+:tabedit auth.py
+|2,0,1649252061,,"tabedit auth.py"
+:tabedit utils.py
+|2,0,1649251661,,"tabedit utils.py"
+:tabedit crud_impl.py
+|2,0,1649250327,,"tabedit crud_impl.py"
+:'<,'>s/$/':                               /g
+|2,0,1649169896,,"'<,'>s/$/':                               /g"
+:'<,'>/$/':                              /g
+|2,0,1649169884,,"'<,'>/$/':                              /g"
+:'<,'>s/$/':                    /g
+|2,0,1649169761,,"'<,'>s/$/':                    /g"
 
 # Search String History (newest to oldest):
-? zipcty_path
-|2,1,1641936382,,"zipcty_path"
-? water_path
-|2,1,1641936358,,"water_path"
-? all_path
-|2,1,1641936340,,"all_path"
-?/csv_to_data
-|2,1,1641910625,47,"csv_to_data"
-?/mark_sat
-|2,1,1641910614,47,"mark_sat"
-?/transform_cms_mark
-|2,1,1641910544,47,"transform_cms_mark"
-? df
-|2,1,1641403557,,"df"
-?/__main
-|2,1,1641402071,47,"__main"
-?/cms_pop_report
-|2,1,1641402055,47,"cms_pop_report"
-? csv_county_path
-|2,1,1641401460,,"csv_county_path"
-? csv_state_path
-|2,1,1641401444,,"csv_state_path"
-? pop_xls_path
-|2,1,1641401225,,"pop_xls_path"
-? xls_path
-|2,1,1641401180,,"xls_path"
-?/A
-|2,1,1641315542,47,"A"
-? beneficiaries
-|2,1,1641215678,,"beneficiaries"
-? eligible
-|2,1,1641215647,,"eligible"
-? percentage
-|2,1,1641215625,,"percentage"
-? number
-|2,1,1641215599,,"number"
-? \%vnumber
-|2,1,1641215559,,"\\%vnumber"
-? \%vnumber%v
-|2,1,1641215528,,"\\%vnumber%v"
-? \<spatialdata\>
-|2,1,1640878936,,"\\<spatialdata\\>"
-??A
-|2,1,1640713953,63,"A"
-? END"
-|2,1,1640712809,,"END\""
-? +] 
-|2,1,1640712792,,"+] "
-? Files"
-|2,1,1640712766,,"Files\""
-? ##
-|2,1,1640712708,,"##"
-? END\\
-|2,1,1640710350,,"END\\\\"
-? `diff
-|2,1,1640710323,,"`diff"
-? <\/center>
-|2,1,1640710007,,"<\\/center>"
-? <font color=\\".*\\">
-|2,1,1640709971,,"<font color=\\\\\".*\\\\\">"
-? <font color=\\"*.\\">
-|2,1,1640709953,,"<font color=\\\\\"*.\\\\\">"
-? <font color=\\"*\\">
-|2,1,1640709943,,"<font color=\\\\\"*\\\\\">"
-? <\/center><\/font>
-|2,1,1640709907,,"<\\/center><\\/font>"
-? <center># 
-|2,1,1640709859,,"<center># "
-? >>>
-|2,1,1640708900,,">>>"
-? >
-|2,1,1640708867,,">"
-?/transform
-|2,1,1640708250,47,"transform"
-? "
-|2,1,1640697293,,"\""
-?/j
-|2,1,1640696961,47,"j"
+?/tuple
+|2,1,1649441450,47,"tuple"
+?/open
+|2,1,1649427987,47,"open"
+? test_table
+|2,1,1649435227,,"test_table"
+?/HEAD
+|2,1,1649256487,47,"HEAD"
+?/head
+|2,1,1649256396,47,"head"
+?/schema_name
+|2,1,1649252436,47,"schema_name"
+?/generate
+|2,1,1649251685,47,"generate"
+? $
+|2,1,1649169896,,"$"
+? :
+|2,1,1649168801,,":"
+? :.
+|2,1,1649168786,,":."
+? ' *:
+|2,1,1649168732,,"' *:"
+? ,
+|2,1,1649168554,,","
+? \$
+|2,1,1649168459,,"\\$"
+? ^*.
+|2,1,1649168242,,"^*."
+? db_conn
+|2,1,1649163531,,"db_conn"
+? db\_conn
+|2,1,1649163514,,"db\\_conn"
+?/db_conn/db/g
+|2,1,1649163489,47,"db_conn/db/g"
+?/update_risk
+|2,1,1649086955,47,"update_risk"
+?/update_risk_summary
+|2,1,1649086945,47,"update_risk_summary"
+?/update
+|2,1,1649086911,47,"update"
+?/install
+|2,1,1649086061,47,"install"
 ?/insert
-|2,1,1640643982,47,"insert"
-?/alias dc
-|2,1,1640643105,47,"alias dc"
-?/alias
-|2,1,1640643027,47,"alias"
-? \-
-|2,1,1640199081,,"\\-"
-?/directory
-|2,1,1640120465,47,"directory"
-?/watch
-|2,1,1640095124,47,"watch"
-?/insert_csv
-|2,1,1640037539,47,"insert_csv"
-?/validate
-|2,1,1640026792,47,"validate"
-?/cli
-|2,1,1639776308,47,"cli"
-? \([^.]\)\{0,1\}\<FactorusMethod\>(
-|2,1,1639748197,,"\\([^.]\\)\\{0,1\\}\\<FactorusMethod\\>("
-? \([^.]\)\{0,1\}\<transform\>(
-|2,1,1639748137,,"\\([^.]\\)\\{0,1\\}\\<transform\\>("
+|2,1,1648845069,47,"insert"
+?/que
+|2,1,1648829297,47,"que"
+?/peri
+|2,1,1648828330,47,"peri"
+?/fire
+|2,1,1648828315,47,"fire"
+??>>>
+|2,1,1648041212,63,">>>"
+? df
+|2,1,1647452356,,"df"
+?/update_env
+|2,1,1647434418,47,"update_env"
+? env_dict
+|2,1,1647434370,,"env_dict"
+? os.environ
+|2,1,1647374921,,"os.environ"
+? \]\]
+|2,1,1647374818,,"\\]\\]"
+? os.environ\[
+|2,1,1647374790,,"os.environ\\["
+? os.enviorn\[
+|2,1,1647374778,,"os.enviorn\\["
+? n\[
+|2,1,1647374602,,"n\\["
+? n[/n[env_dict[/g
+|2,1,1647374577,,"n[/n[env_dict[/g"
+? : 
+|2,1,1647374382,,": "
+? D
+|2,1,1647374357,,"D"
+? ^
+|2,1,1647374344,,"^"
+? =
+|2,1,1647374333,,"="
+? )
+|2,1,1647293279,,")"
+? ce(
+|2,1,1647293268,,"ce("
+? , shell=True
+|2,1,1647282635,,", shell=True"
+? \t
+|2,1,1647282130,,"\\t"
+? g
+|2,1,1647282123,,"g"
+???
+|2,1,1647273156,63,"?"
+?/      \_/ \__,_|_|  |___/
+|2,1,1647269522,47,"      \\_/ \\__,_|_|  |___/"
+?/    \ V / (_| | |  \__ \
+|2,1,1647269521,47,"    \\ V / (_| | |  \\__ \\"
+?/ /  \ \ / / _` | '__/ __|
+|2,1,1647269521,47," /  \\ \\ / / _` | '__/ __|"
+?/ /_ _ _ __ ___
+|2,1,1647269521,47," /_ _ _ __ ___"
+?/|_|
+|2,1,1647264675,47,"|_|"
 
 # Expression History (newest to oldest):
 
@@ -243,2821 +243,2040 @@ $ZIPCTY_PATH
 
 # Registers:
 "0	LINE	0
-	    with open('fips_mappings.file', 'ab') as fip_file:
-|3,0,0,1,1,0,1641995163,"    with open('fips_mappings.file', 'ab') as fip_file:"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1641995184,""
+	    # TODO add additional functions for your class here, specific to your needs
+|3,0,0,1,1,0,1649684645,"    # TODO add additional functions for your class here, specific to your needs"
+""1	LINE	0
+	[submodule "tmux-power"]
+		url = https://github.com/wfxr/tmux-power.git
+		active = true
+|3,1,1,1,3,0,1649769409,"[submodule \"tmux-power\"]","	url = https://github.com/wfxr/tmux-power.git","	active = true"
 "2	LINE	0
-	    fip_map = open(fip
-|3,0,2,1,1,0,1641995138,"    fip_map = open(fip"
+	[submodule "tmux-power"]
+		path = tmux-power
+		url = https://github.com/wfxr/tmux-power.git
+|3,0,2,1,3,0,1649769398,"[submodule \"tmux-power\"]","	path = tmux-power","	url = https://github.com/wfxr/tmux-power.git"
 "3	LINE	0
-	    print()
-|3,0,3,1,1,0,1641994511,"    print()"
+	"^[a-zA-Z0-9_]*$"
+|3,0,3,1,1,0,1649768287,"\"^[a-zA-Z0-9_]*$\""
 "4	LINE	0
-	    # record the time to determine length of each operation
-	    time_start = time.time()
-|3,0,4,1,2,0,1641994180,"    # record the time to determine length of each operation","    time_start = time.time()"
+	
+|3,0,4,1,1,0,1649685342,""
 "5	LINE	0
-	    # stop the timer
-	    time_stop = time.time()
-|3,0,5,1,2,0,1641994173,"    # stop the timer","    time_stop = time.time()"
+	    
+|3,0,5,1,1,0,1649685340,"    "
 "6	LINE	0
-	    if tmp['COUNTRY_CODE'].iloc[0] == 'US':
-|3,0,6,1,1,0,1641993933,"    if tmp['COUNTRY_CODE'].iloc[0] == 'US':"
+	
+|3,0,6,1,1,0,1649684192,""
 "7	LINE	0
-	        
-|3,0,7,1,1,0,1641993922,"        "
+	RUN apt-get update --fix-missing &&\
+	    apt-get install pip -y
+	
+|3,0,7,1,3,0,1649442180,"RUN apt-get update --fix-missing &&\\","    apt-get install pip -y",""
 "8	LINE	0
-	    # update all of the columns with the newly found data
-|3,0,8,1,1,0,1641937203,"    # update all of the columns with the newly found data"
+	# FROM selenium/standalone-chrome-debug
+|3,0,8,1,1,0,1649441936,"# FROM selenium/standalone-chrome-debug"
 "9	LINE	0
-	                viol_df['POPULATION_SERVED_COUNT'][index]]
-|3,0,9,1,1,0,1641937203,"                viol_df['POPULATION_SERVED_COUNT'][index]]"
+	# the common package uses python3.9-slim
+|3,0,9,1,1,0,1649441935,"# the common package uses python3.9-slim"
 "b	CHAR	0
 	bi€kl\:wjkkkkkkkkkjjjjjjkkj
 |3,0,11,0,1,0,1640700728,"bi€kl\\:wjkkkkkkkkkjjjjjjkkj"
+"h	CHAR	0
+	
+|3,0,17,0,1,0,1644251090,""
+"i@	CHAR	0
+	jkIif €kD€kD€kD€kD€kD€kDlipd.isnull€kb€kb€kb€kb€kb€kbnmo€kb€kbotnull(A):wA:print()€klrent€kb€kb€kb€kbre€kb€kbentry[]€kl€kr€kb€kb.iloc[]€kl0€kr[]€kl'['€kb€kb'€kljkllhjkwkwwwwwwwlllllhiFIPS:wjkklllllllx:w
+|3,2,18,0,1,0,1642710301,"jkIif €kD€kD€kD€kD€kD€kDlipd.isnull€kb€kb€kb€kb€kb€kbnmo€kb€kbotnull(A):wA:print()€klrent€kb€kb€kb€kbre€kb€kbentry[]€kl€kr€kb€kb.iloc[]€kl0€kr[]€kl'['€kb€kb'€kljkllhjkwkwwwwwwwlllllhiFIPS:wjkklllllllx:w"
 "j	CHAR	0
-	kkkkkkkkkkkk:Pydocstring
-|3,0,19,0,1,0,1639680303,"kkkkkkkkkkkk:Pydocstring"
+	kkkkkjjjjjlxjjjjIdbjjjjjjjjjjjjjjjjjjjjkkkI#:wj
+|3,0,19,0,1,0,1647291739,"kkkkkjjjjjlxjjjjIdbjjjjjjjjjjjjjjjjjjjjkkkI#:wj"
+"k	CHAR	0
+	
+|3,0,20,0,1,0,1643659884,""
+"q	CHAR	0
+	2859
+<kkAdef test_c€kbdelete()€klseflo€kb€kb€kblf€kr: €kbself.db.test_table.deel€kb€kblete()€klid='2€kb€kb2jjxlli€kb:wkkA:wkkkA:wjjjjjjkkkkkddddddllllllllllllllli_deletejkjkAself.dv€kbb.test_table.dlet€kb€kb€kbetle€kb€kb€kblete()€klid=2jkyyjp:wkkklllllllllllllllllli€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb_alljjjjjjyykjddkkkkkkpjjjjjjddkkkkkkpjjjjjjddkkkkkjpjjjjddkkkkp:wjjjddkdd:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtkkkkkkkkkjjAself.€kb€kb€kb€kbddkkjAself.assertTure€kb€kb€kbrue()€kl€kl€kb€kb€kb€kbFalse€kr€kr€klself.db.is_open()jkyyjjpjpjpjjp:wkkkkkkkkkkkkA# read all the data from the test tbla€kb€kb€kbablejA# makde su€kb€kb€kb€kb€kbe sure the db was closed propert€kblyjA# make sure the results from db are as s€kbexpectedjA# attempt to delete the entry with id =1€kb2€kb= 2jA# make sure the db is closedjA# create an entry with id 2-€kb€kb== 2jA# maks€kbe sure the db is closejkA€kb€kb€kb€kbedjA# ra€kbead the n€kbentry we created..jA# make sure the db is closedjA# make sure the results as€kb€kbfrom db are as expc€kbectedjA# delete the entry we makdeA€kb€kb€kbdejA# makde t€kb€kb€kb€kbe sure the db is closed:wkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkjjjjjjjkkkkkkkkkkkkkkkkjkkjjjjjjjjjAdef __init()€kb€kb__()€klself€kr:supser €kb€kb€kb€kbper€kb€kber€kb€kber€kb€kb€kber()€kl€kr.ini€kb€kb€kb__€kd()self.test€kb€kb€kbest_table =test_€kb€kb€kb€kb€kb test_table()€klself:wjjjjjjjjkkkkkkkkjjjhhhhhhhhhhhhhhhhhihhhhhhhi_PGjkVjjjjjjjjjjjjjjjjjjjjjjjjjjjyjkjzajpkojjjokkklllllllllllllllllllhi€kb€kbMM€kbSSQLjzAkkkkkkkkkkkkkkjjjjjjjjjjjjjjhi€kb€kbMSA€kd:wjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkk:tabedit et€kb€kbte			jjjjjjjjjjjjjj:tab€kb€kb€kb€kbgTjkjkVgtzAgtgtjjjjyygtjjpgTkkkkkkkkkkkkkkkkkkjVjjjygtkkkkkkpjZakkkkkkAfrom common.cru€kd€kd import CRU€kd:wjjjjjjjjjjjjjkkkkkkp:wuojjjjjjjjjjjjjjjjjjjkkkkkk:wgtgtjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkjjjVkkd:wjjjjjjjjjjkkkkVjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkxgtjji€ku€kukkzAjjzajjkpVjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjkkkdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgtdddd:wkkkgtjjkkzAjjjjjyypllllllllllllllllddpwwwwwwveeeeeeeeehkkkjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjhhhhhhhhhhhhilli€kb€kb€kb€kb€kb€kbDBTablejjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhhhhhhhhi€kbT:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkzAjjlllllllllllllllllllllllllllllvesjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkklidbo:w€ý,€ý.jjjjjjjjjjjhhhhhhhhhhhhhhhhhhi€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbTestDBTablelllllhvesTEST€kb€kb€kbestDBTablejjjjjjjjjjjjjjjkjjjjjjjjjjjjjjkkkVjjjjjjjjjjjjjjjjjjjjjjjjkk:/€kbs:/€kb€kb/test_table/Test_€kbDBTable
+|3,0,26,0,1,0,1649435228,>2857
+|<"kkAdef test_c€kbdelete()€klseflo€kb€kb€kblf€kr: €kbself.db.test_table.deel€kb€kblete()€klid='2€kb€kb2jjxlli€kb:wkkA:wkkkA:wjjjjjjkkkkkddddddllllllllllllllli_deletejkjkAself.dv€kbb.test_table.dlet€kb€kb€kbetle€kb€kb€kblete()€klid=2jkyyjp:wkkklllllllllllllllllli€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb_alljjjjjjyykjddkkkkkkpjjjjjjddkkkkkkpjjjjjjddkkkkkjpjjjjddkkkkp:wjjjddkdd:wgtjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgtkkkkkkkkkjjAself.€kb€kb€kb€kbddkkjAself.assertTure€kb€kb€kbrue()€kl€kl€kb€kb€kb€kbFalse€kr€kr€klself.db.is_open()jkyyjjpjpjpjjp:wkkkkkkkkkkkkA# read all the data from the test tbla€kb€kb€kbablejA# makde su€kb€kb€kb€kb€kbe sure the db was closed propert€kblyjA# make sure the results from db are as s€kbexpectedjA# attempt to delete the entry with id =1€kb2€kb= 2jA# make sure the db is closedjA# create an entr
+|<y with id 2-€kb€kb== 2jA# maks€kbe sure the db is closejkA€kb€kb€kb€kbedjA# ra€kbead the n€kbentry we created..jA# make sure the db is closedjA# make sure the results as€kb€kbfrom db are as expc€kbectedjA# delete the entry we makdeA€kb€kb€kbdejA# makde t€kb€kb€kb€kbe sure the db is closed:wkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkjjjjjjjkkkkkkkkkkkkkkkkjkkjjjjjjjjjAdef __init()€kb€kb__()€klself€kr:supser €kb€kb€kb€kbper€kb€kber€kb€kber€kb€kb€kber()€kl€kr.ini€kb€kb€kb__€kd()s
+|<elf.test€kb€kb€kbest_table =test_€kb€kb€kb€kb€kb test_table()€klself:wjjjjjjjjkkkkkkkkjjjhhhhhhhhhhhhhhhhhihhhhhhhi_PGjkVjjjjjjjjjjjjjjjjjjjjjjjjjjjyjkjzajpkojjjokkklllllllllllllllllllhi€kb€kbMM€kbSSQLjzAkkkkkkkkkkkkkkjjjjjjjjjjjjjjhi€kb€kbMSA€kd:wjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkk:tabedit et€kb€kbte			jjjjjjjjjjjjjj:tab€kb€kb€kb€kbgTjkjkVgtzAgtgtjjjjyygtjjpgTkkkkkkkkkkkkkkkkkkjVjjjygtkkkkkkpjZakkkkkkAfrom common.cru€kd€kd import CRU
+|<€kd:wjjjjjjjjjjjjjkkkkkkp:wuojjjjjjjjjjjjjjjjjjjkkkkkk:wgtgtjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkjjjVkkd:wjjjjjjjjjjkkkkVjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkxgtjji€ku€kukkzAjjzajjkpVjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjkkkdd:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgtgtdddd:wkkkgtjjkkzAjjjjjyypllllllllllllllllddpwwwwwwveeeeeeeeehkkkjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjhhhhhhhhhhhhilli€kb€kb€kb€kb€kb€kbDBTablejjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkhhhhhhhhhi€kbT:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkzAjjlllllllllllllllllllllllllllllvesjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkklidbo:w€ý,€ý.jjjjjjjjjjjhhhhhhhhhhhhhhhhhhi€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbTestDBTablelllllhvesTEST€kb€kb€kbestDBTablejjjjjjjjjjjjjjjkjjjjjjjjjjjjjjkkkVjjjjjjjjjjjjjjjjjjjjjjjjkk:/€kbs:/€kb€kb/test_table/Test_€kbDBTable"
+"s	CHAR	0
+	
+|3,0,28,0,1,0,1643660772,""
+"u	CHAR	0
+	540
+<ests 2.27.1€kl€ý,€ý.€ý,€ý.€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbrequests 2.27.1€kl€kl€kl€kl€kl€kl€kb==:w:gtgtgtA€kb.€ý,€ý.€kb.€ýL€ýL€ýL€ýL€ýL€ý,€ý.€kb.€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ý,€ý.€kb.hea€kdq€kbd€kd€ku€ý,€ý.()€kb€kb€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€krrest€kbponse = €kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr()€klurljkj
+|3,0,30,0,1,0,1644614330,>539
+|<"ests 2.27.1€kl€ý,€ý.€ý,€ý.€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbrequests 2.27.1€kl€kl€kl€kl€kl€kl€kb==:w:gtgtgtA€kb.€ý,€ý.€kb.€ýL€ýL€ýL€ýL€ýL€ý,€ý.€kb.€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ý,€ý.€kb.hea€kdq€kbd€kd€ku€ý,€ý.()€kb€kb€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€krrest€kbponse = €kr€kr€kr€kr€
+|<kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr()€klurljkj"
 "w	CHAR	0
 	w
 |3,0,32,0,1,0,1640112439,"w"
-""-	CHAR	0
-	)
-|3,1,36,0,1,0,1641995198,")"
+"-	CHAR	0
+	set
+|3,0,36,0,1,0,1649685408,"set"
 
 # File marks:
-'0  137  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,48,137,24,1641995750,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'1  147  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,49,147,0,1641994519,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'2  140  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,50,140,0,1641994519,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'3  43  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,51,43,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'4  44  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,52,44,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'5  41  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,53,41,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'6  42  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,54,42,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'7  125  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,55,125,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'8  122  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,56,122,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
-'9  126  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,57,126,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
+'0  1  0  ~/.git/COMMIT_EDITMSG
+|4,48,1,0,1649769626,"~/.git/COMMIT_EDITMSG"
+'1  2  0  ~/.gitmodules
+|4,49,2,0,1649769575,"~/.gitmodules"
+'2  10  1  ~/.git/config
+|4,50,10,1,1649769410,"~/.git/config"
+'3  1  0  ~/.gitmodules
+|4,51,1,0,1649769400,"~/.gitmodules"
+'4  1  0  ~/.gitmodules
+|4,52,1,0,1649769400,"~/.gitmodules"
+'5  30  0  ~/.viminfo
+|4,53,30,0,1649769103,"~/.viminfo"
+'6  1  0  ~/.gitignore
+|4,54,1,0,1649769073,"~/.gitignore"
+'7  5  0  ~/NERD_tree_1
+|4,55,5,0,1649768803,"~/NERD_tree_1"
+'8  1  0  ~/.custom/customize-environment.sh
+|4,56,1,0,1649768786,"~/.custom/customize-environment.sh"
+'9  1  0  ~/NERD_tree_1
+|4,57,1,0,1649768714,"~/NERD_tree_1"
 
 # Jumplist (newest first):
--'  137  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,137,24,1641995750,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  147  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,147,0,1641995508,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  135  25  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,135,25,1641995242,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  1  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,1,0,1641995045,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  140  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,140,0,1641994519,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  1  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,1,0,1641992950,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  43  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,43,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  44  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,44,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  41  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,41,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  42  57  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,42,57,1641938078,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  1  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,1,0,1641937942,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  125  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,125,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  122  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,122,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  126  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,126,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  123  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,123,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  123  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,123,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  120  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,120,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  124  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,124,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  121  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,121,24,1641937857,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  1  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,1,0,1641937754,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  145  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,145,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  144  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,144,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  132  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,132,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  131  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,131,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  143  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,143,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  142  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,142,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  134  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,134,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  138  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,138,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  137  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,137,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  130  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,130,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  129  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,129,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  136  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,136,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  135  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,135,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  133  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,133,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  132  9  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,132,9,1641937354,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  109  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,109,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  108  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,108,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  106  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,106,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  105  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,105,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  110  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,110,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  107  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,107,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  107  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,107,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  106  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,106,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  104  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,104,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  103  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,103,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  108  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,108,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  107  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,107,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  105  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,105,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  104  19  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,104,19,1641937308,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  146  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,146,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  133  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,133,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  136  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,136,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  139  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,139,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  131  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,131,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  138  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,138,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  137  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,137,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  135  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,135,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  134  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,134,0,1641937085,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  134  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,134,0,1641937084,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  132  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,132,0,1641937084,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  131  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,131,0,1641937084,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  42  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,42,0,1641936483,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  40  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,40,0,1641936483,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  40  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,40,0,1641936483,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  40  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,40,0,1641936483,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  40  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,40,0,1641936483,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  86  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,86,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  83  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,83,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  87  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,87,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  84  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,84,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  84  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,84,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  81  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,81,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  85  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,85,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  82  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,82,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  82  24  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,82,24,1641936383,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  14  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,14,0,1641936382,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  12  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,12,0,1641936382,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  12  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,12,0,1641936382,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  12  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,12,0,1641936382,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  12  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,12,0,1641936382,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  12  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,12,0,1641936358,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  10  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,10,0,1641936358,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  10  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,10,0,1641936358,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  10  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,10,0,1641936358,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  10  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,10,0,1641936358,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  148  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,148,0,1641935039,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  141  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,141,0,1641935039,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  139  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,139,0,1641935039,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  136  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,136,0,1641935039,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  135  0  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,135,0,1641935039,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  82  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,82,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  79  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,79,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  80  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,80,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  80  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,80,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  77  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,77,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  81  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,81,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  78  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,78,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  78  28  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,78,28,1641935038,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  69  29  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,69,29,1641934674,"/mnt/c/Users/aoe/Desktop/insert_county.py"
--'  66  29  /mnt/c/Users/aoe/Desktop/insert_county.py
-|4,39,66,29,1641934674,"/mnt/c/Users/aoe/Desktop/insert_county.py"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1649769626,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1649769575,"~/.gitmodules"
+-'  2  0  ~/.gitmodules
+|4,39,2,0,1649769575,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769572,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769572,"~/.gitmodules"
+-'  10  1  ~/.git/config
+|4,39,10,1,1649769410,"~/.git/config"
+-'  10  1  ~/.git/config
+|4,39,10,1,1649769410,"~/.git/config"
+-'  10  1  ~/.git/config
+|4,39,10,1,1649769410,"~/.git/config"
+-'  10  1  ~/.git/config
+|4,39,10,1,1649769410,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1649769406,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1649769406,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1649769406,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1649769406,"~/.git/config"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769400,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769400,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769400,"~/.gitmodules"
+-'  1  0  ~/.gitmodules
+|4,39,1,0,1649769400,"~/.gitmodules"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  30  0  ~/.viminfo
+|4,39,30,0,1649769103,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1649769099,"~/.viminfo"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1649769073,"~/.gitignore"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1649768803,"~/NERD_tree_1"
 
 # History of marks within files (newest to oldest):
 
-> /mnt/c/Users/aoe/Desktop/insert_county.py
-	*	1641995750	0
-	"	137	24
-	^	5	16
-	.	5	15
-	+	19	46
-	+	23	30
-	+	25	27
-	+	27	39
-	+	40	41
-	+	42	0
-	+	42	58
-	+	42	75
-	+	46	56
-	+	55	47
-	+	57	56
-	+	63	58
-	+	64	44
-	+	67	0
-	+	66	75
-	+	70	44
-	+	73	53
-	+	75	61
-	+	78	54
-	+	84	0
-	+	80	59
-	+	83	68
-	+	85	56
-	+	87	46
-	+	89	30
-	+	91	69
-	+	93	54
-	+	95	53
-	+	98	55
-	+	100	54
-	+	102	52
-	+	105	57
-	+	108	58
-	+	111	40
-	+	113	64
-	+	116	41
-	+	120	60
-	+	121	58
-	+	124	46
-	+	128	59
-	+	131	19
-	+	131	65
-	+	144	30
-	+	146	14
-	+	148	0
-	+	46	0
-	+	84	32
-	+	106	63
-	+	109	73
-	+	110	0
-	+	123	0
-	+	130	0
-	+	132	54
-	+	131	0
-	+	97	36
-	+	98	0
-	+	43	75
-	+	44	51
-	+	45	57
-	+	42	7
-	+	42	40
-	+	42	0
-	+	54	40
-	+	55	0
-	+	131	0
-	+	42	0
-	+	39	3
-	+	40	0
-	+	143	0
-	+	142	0
-	+	135	11
-	+	134	0
-	+	135	0
-	+	142	0
-	+	3	12
-	+	140	15
-	+	136	0
-	+	130	0
-	+	140	57
-	+	140	61
-	+	136	0
-	+	141	16
-	+	140	0
-	+	136	0
-	+	140	0
-	+	139	19
-	+	138	0
-	+	139	61
-	+	140	39
-	+	139	0
-	+	141	41
-	+	140	0
-	+	134	0
-	+	137	24
-	+	5	15
-
-> ~/code/va/data_standardss/cms_data_loader/Dockerfile
-	*	1641911719	0
-	"	27	28
-	^	25	28
-	.	25	27
-	+	19	35
-	+	19	0
-	+	2	36
-	+	7	8
-	+	8	36
-	+	9	28
-	+	18	8
-	+	20	16
-	+	19	16
-	+	20	0
-	+	26	31
-	+	27	28
-	+	25	27
-
-> ~/code/va/data_standardss/docker-compose.yml
-	*	1641911663	0
-	"	1	0
-	^	110	24
-	.	110	23
-	+	42	5
-	+	44	0
-	+	41	4
-	+	58	4
-	+	58	96
-	+	47	0
-	+	66	18
-	+	41	37
-	+	58	76
-	+	58	115
-	+	58	0
-	+	69	28
-	+	59	61
-	+	60	58
-	+	67	0
-	+	69	0
-	+	58	0
-	+	34	0
-	+	63	44
-	+	89	30
-	+	84	3
-	+	85	4
-	+	86	5
-	+	87	6
-	+	75	0
-	+	83	71
-	+	91	0
-	+	91	8
-	+	91	11
-	+	91	46
-	+	91	16
-	+	91	75
-	+	91	0
-	+	93	0
-	+	91	70
-	+	91	0
-	+	91	52
-	+	91	0
-	+	91	22
-	+	93	0
-	+	28	0
-	+	29	0
-	+	67	0
-	+	28	0
-	+	65	0
-	+	66	0
-	+	28	1
-	+	29	0
-	+	63	0
-	+	32	0
-	+	66	0
-	+	91	29
-	+	91	26
-	+	91	22
-	+	33	0
-	+	67	0
-	+	91	0
-	+	91	61
-	+	91	26
-	+	91	0
-	+	91	46
-	+	91	0
-	+	91	60
-	+	91	0
-	+	28	2
-	+	32	0
-	+	28	3
-	+	32	3
-	+	33	5
-	+	34	5
-	+	36	0
-	+	45	5
-	+	49	5
-	+	50	6
-	+	66	2
-	+	67	4
-	+	68	3
-	+	69	2
-	+	74	2
-	+	75	2
-	+	91	1
-	+	91	2
-	+	5	2
-	+	28	1
-	+	29	3
-	+	30	3
-	+	31	5
-	+	32	1
-	+	33	3
-	+	34	3
-	+	35	5
-	+	37	0
-	+	45	4
-	+	49	4
-	+	50	1
-	+	91	0
-	+	110	23
-
-> ~/code/va/data_standardss/cms_data_loader/transform.
-	*	1641911617	0
-	"	1	0
-	^	1	4
-	.	1	3
-	+	1	3
-
-> ~/code/va/data_standardss/cms_data_loader/grab.py
-	*	1641911309	0
-	"	90	0
-	^	69	25
-	.	68	0
-	+	1	0
-	+	24	0
-	+	26	0
-	+	88	0
-	+	88	7
-	+	13	24
-	+	88	56
-	+	88	37
-	+	88	0
-	+	2	14
-	+	88	0
-	+	88	30
-	+	88	13
-	+	88	0
-	+	24	0
-	+	32	49
-	+	78	0
-	+	70	0
-	+	71	60
-	+	70	0
-	+	56	58
-	+	55	0
-	+	66	56
-	+	65	0
-	+	56	0
-	+	54	17
-	+	53	0
-	+	66	0
-	+	64	28
-	+	71	0
-	+	69	17
-	+	68	0
-
-> ~/code/va/data_standardss/cms_data_loader/grab.
-	*	1641911286	0
+> ~/.git/COMMIT_EDITMSG
+	*	1649769624	0
 	"	1	0
 
-> ~/code/va/data_standardss/cms_data_loader/transform.py
-	*	1641910852	0
-	"	260	15
-	^	259	16
-	.	259	15
-	+	413	0
-	+	426	0
-	+	411	0
-	+	413	0
-	+	414	27
-	+	412	26
-	+	426	0
-	+	428	0
-	+	437	0
-	+	456	0
-	+	416	99
-	+	421	32
-	+	419	84
-	+	421	86
-	+	430	0
-	+	435	0
-	+	430	0
-	+	433	61
-	+	432	55
-	+	416	37
-	+	416	38
-	+	417	74
-	+	418	24
-	+	419	45
-	+	420	29
-	+	421	46
-	+	422	78
-	+	424	62
-	+	425	67
-	+	437	0
-	+	434	0
-	+	436	0
-	+	446	31
-	+	446	38
-	+	430	0
-	+	445	0
-	+	446	51
-	+	445	0
-	+	448	73
-	+	448	52
-	+	447	0
-	+	449	0
-	+	450	30
-	+	450	53
-	+	449	0
-	+	450	55
-	+	450	76
-	+	449	0
-	+	450	72
-	+	451	0
-	+	452	30
-	+	452	54
-	+	451	0
-	+	453	0
-	+	454	30
-	+	454	49
-	+	453	0
-	+	455	0
-	+	431	0
-	+	432	0
-	+	63	21
-	+	68	0
-	+	63	22
-	+	68	0
-	+	63	23
-	+	69	38
-	+	63	23
-	+	69	38
-	+	122	50
-	+	125	50
-	+	127	35
-	+	130	58
-	+	131	0
-	+	134	45
-	+	269	38
-	+	268	0
-	+	296	0
-	+	295	10
-	+	290	56
-	+	292	78
-	+	293	77
-	+	294	77
-	+	250	29
-	+	249	0
-	+	250	44
-	+	250	0
-	+	251	52
-	+	250	0
-	+	253	34
-	+	252	0
-	+	260	0
-	+	253	51
-	+	253	54
-	+	252	0
-	+	256	45
-	+	257	34
-	+	256	0
-	+	257	66
-	+	256	0
-	+	259	15
-
-> ~/code/va/data_standardss/docker-compose.y
-	*	1641850297	0
-	"	1	0
-
-> ~/code/va/data_standardss/docker-compose.override.yml
-	*	1641849816	0
-	"	6	5
-	^	13	6
-	.	13	6
-	+	23	33
-	+	21	11
-	+	20	0
-	+	23	22
-	+	14	30
-	+	16	13
-	+	18	0
-	+	17	0
-	+	24	0
-	+	1	2
-	+	22	0
-	+	12	0
-	+	21	8
-	+	21	1
-	+	23	5
-	+	10	1
-	+	10	2
-	+	12	0
-	+	10	0
-	+	11	1
-	+	12	3
-	+	13	0
-	+	14	0
-	+	13	6
-	+	14	5
-	+	13	6
-
-> /mnt/c/Users/aoe/Desktop/add_county_data.py
-	*	1641835858	0
-	"	22	26
-	^	44	38
-	.	44	37
-	+	40	33
-	+	41	37
-	+	40	43
-	+	41	47
-	+	40	26
-	+	41	30
-	+	40	26
-	+	41	30
-	+	45	30
-	+	45	0
-	+	45	54
-	+	45	59
-	+	45	55
-	+	45	54
-	+	45	58
-	+	45	56
-	+	45	54
-	+	45	0
-	+	45	74
-	+	45	0
-	+	45	26
-	+	45	0
-	+	45	65
-	+	45	0
-	+	45	52
-	+	45	0
-	+	45	62
-	+	45	42
-	+	45	0
-	+	45	42
-	+	45	0
-	+	45	56
-	+	45	0
-	+	45	82
-	+	45	0
-	+	45	82
-	+	45	0
-	+	45	74
-	+	45	46
-	+	45	0
-	+	45	72
-	+	45	0
-	+	45	76
-	+	45	0
-	+	45	78
-	+	45	22
-	+	45	78
-	+	45	0
-	+	45	74
-	+	45	0
-	+	45	68
-	+	45	77
-	+	45	0
-	+	45	66
-	+	45	0
-	+	45	73
-	+	45	0
-	+	54	25
-	+	55	0
-	+	54	0
-	+	43	39
-	+	40	28
-	+	43	40
-	+	45	24
-	+	45	0
-	+	42	43
-	+	45	0
-	+	42	30
-	+	43	46
-	+	44	34
-	+	45	0
-	+	40	0
-	+	43	34
-	+	44	37
-
-> sftp://aoe@ehd01.ornl.gov/~/water/merge/insert_county.py
-	*	1641834735	0
-	"	1	0
-	.	1	0
-	+	1	4
-	+	1	0
-
-> scp://aoe@ehd01.ornl.gov:22/~/water/merge/insert_county.py
-	*	1641834567	0
-	"	1	3
-	^	1	4
-	.	1	3
-	+	1	3
-
-> scp://aoe@ehd01.ornl.gov/~/water/merge/insert_county.py
-	*	1641834533	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> /mnt/c/Users/aoe/Desktop/merge.py
-	*	1641582669	0
-	"	23	51
-	^	23	50
-	.	23	51
-	+	3	6
-	+	6	0
-	+	6	1
-	+	6	0
-	+	3	59
-	+	4	0
-	+	5	0
-	+	6	0
-	+	4	1
-	+	5	1
-	+	6	1
-	+	4	42
-	+	5	42
-	+	6	42
-	+	4	60
-	+	5	60
-	+	6	66
-	+	7	0
-	+	12	9
-	+	13	0
-	+	14	0
-	+	15	0
-	+	13	1
-	+	14	1
-	+	15	1
-	+	12	0
-	+	14	23
-	+	15	25
-	+	19	23
-	+	20	0
-	+	21	0
-	+	20	16
-	+	21	16
-	+	22	0
-	+	3	7
-	+	4	7
-	+	5	7
-	+	6	7
-	+	7	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	9	14
-	+	10	4
-	+	11	4
-	+	4	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	38
-	+	7	0
-	+	9	0
-	+	15	38
-	+	3	49
-	+	4	49
-	+	5	49
-	+	6	49
-	+	12	22
-	+	11	0
-	+	13	22
-	+	14	22
-	+	13	0
-	+	14	22
-	+	13	22
-	+	12	0
-	+	23	11
-	+	22	0
-	+	23	51
-
-> ~/code/va/data_standardss/hrsa_data_loader/transform.py
-	*	1641579388	0
+> ~/.gitmodules
+	*	1649769574	0
 	"	2	0
-	^	427	26
-	.	427	25
-	+	411	0
-	+	409	0
-	+	412	0
-	+	412	22
-	+	412	0
-	+	412	63
-	+	413	62
-	+	412	59
-	+	413	71
-	+	412	8
-	+	413	33
-	+	414	59
-	+	413	0
-	+	416	59
-	+	415	0
-	+	418	60
-	+	417	0
-	+	419	73
-	+	417	0
-	+	420	47
-	+	420	0
-	+	421	119
-	+	425	0
-	+	427	0
-	+	421	0
-	+	421	119
-	+	425	0
-	+	420	0
-	+	421	206
-	+	425	88
-	+	427	71
-	+	425	88
-	+	412	37
-	+	413	0
-	+	420	0
-	+	421	88
-	+	421	206
-	+	425	38
-	+	425	88
-	+	421	206
-	+	423	0
-	+	421	88
-	+	421	74
-	+	420	0
-	+	423	73
-	+	422	0
-	+	425	74
-	+	424	0
-	+	427	80
-	+	426	0
-	+	427	74
-	+	426	0
-	+	413	0
-	+	421	22
-	+	423	21
-	+	422	0
-	+	425	22
-	+	427	22
-	+	419	70
-	+	427	60
-	+	426	0
-	+	427	25
-
-> ~/code/va/water/water.py
-	*	1641578748	0
-	"	25	15
-	^	25	16
-	.	24	0
-	+	17	0
-	+	21	0
-	+	10	0
-	+	21	57
-	+	21	73
-	+	21	0
-	+	18	0
-	+	19	40
-	+	28	0
-	+	4	10
-	+	4	13
-	+	6	0
-	+	9	38
-	+	8	0
-	+	9	39
-	+	21	0
-	+	19	41
-	+	28	33
-	+	30	20
-	+	31	37
-	+	28	16
-	+	4	0
-	+	25	10
-	+	23	15
-	+	25	73
-	+	25	0
-	+	31	28
-	+	23	16
-	+	28	0
-	+	25	0
-	+	26	0
-	+	46	20
-	+	26	60
-	+	27	37
-	+	31	0
-	+	41	31
-	+	31	0
-	+	41	27
-	+	31	0
-	+	41	44
-	+	32	0
-	+	18	19
-	+	19	21
-	+	3	0
+	.	1	0
 	+	1	0
-	+	3	0
-	+	1	0
-	+	23	20
-	+	43	30
-	+	46	25
-	+	18	17
-	+	27	31
-	+	41	0
-	+	29	0
-	+	37	39
-	+	35	0
-	+	37	69
-	+	40	0
-	+	37	0
-	+	40	24
-	+	33	0
-	+	37	74
-	+	35	0
-	+	40	0
-	+	37	79
-	+	35	0
-	+	32	0
-	+	40	0
-	+	37	79
-	+	40	0
-	+	34	35
-	+	27	38
-	+	35	0
-	+	40	0
-	+	39	19
-	+	29	0
-	+	37	73
-	+	35	0
-	+	29	0
-	+	35	0
-	+	18	13
-	+	41	56
-	+	40	0
-	+	36	13
-	+	37	14
-	+	36	14
-	+	37	20
-	+	36	0
-	+	41	62
-	+	18	19
-	+	42	21
-	+	43	36
-	+	45	31
-	+	4	61
-	+	5	0
-	+	26	83
-	+	36	49
-	+	24	0
-	+	26	88
-	+	24	0
 
-> ~/code/va/data_standardss/hrsa_data_loader/curl.sh
-	*	1641570597	0
-	"	17	42
-	^	17	43
-	.	17	42
-	+	3	0
-	+	3	67
-	+	2	45
-	+	3	0
-	+	2	76
-	+	3	0
-	+	4	0
-	+	3	76
-	+	4	76
-	+	5	66
-	+	8	42
-	+	11	0
-	+	14	0
-	+	17	0
-	+	11	38
-	+	14	14
-	+	17	28
-	+	8	29
-	+	11	29
-	+	14	29
-	+	17	44
-	+	18	0
-	+	7	51
-	+	10	51
-	+	13	51
-	+	16	81
-	+	1	0
-	+	9	44
-	+	12	44
-	+	16	0
-	+	15	44
-	+	18	46
-	+	8	52
-	+	11	52
-	+	14	52
-	+	17	42
-
-> ~/code/va/data_standardss/hrsa_data_loader/Dockerfile
-	*	1641568845	0
-	"	13	18
-	^	13	19
-	.	13	18
-	+	20	0
-	+	12	19
-	+	13	18
-
-> ~/code/va/water/curl.sh
-	*	1641560708	0
-	"	16	32
-	^	18	56
-	.	18	55
-	+	18	55
-
-> ~/code/va/curl.sh
-	*	1641481440	0
-	"	15	130
-	^	15	89
-	.	15	130
-	+	3	71
-	+	3	13
-	+	3	85
-	+	3	72
-	+	4	0
-	+	3	71
-	+	4	34
-	+	3	5
-	+	3	10
-	+	4	35
-	+	3	0
-	+	6	5
-	+	3	15
-	+	6	20
-	+	8	26
-	+	8	20
-	+	8	0
-	+	6	30
-	+	5	0
-	+	4	5
-	+	3	79
-	+	4	4
-	+	8	5
-	+	7	22
-	+	8	15
-	+	7	8
-	+	8	0
-	+	7	8
-	+	12	27
-	+	18	3
-	+	15	0
-	+	14	13
-	+	15	22
-	+	11	12
-	+	15	43
-	+	16	33
-	+	17	28
-	+	15	16
-	+	16	0
-	+	15	36
-	+	8	0
-	+	15	86
-	+	15	0
-	+	15	144
-	+	15	0
-	+	15	134
-	+	15	130
-
-> data_load/handler.py
-	*	1641479464	0
-	"	1	0
-
-> ~/code/va/data_standardss/data_load/handler.py
-	*	1641479440	0
-	"	19	0
-	^	74	77
-	.	72	0
-	+	22	0
-	+	18	0
-	+	1	0
-	+	16	0
-	+	18	0
-	+	10	1
-	+	16	0
-	+	12	13
-	+	15	22
-	+	69	53
-	+	71	73
-	+	22	0
-	+	22	23
-	+	77	0
-	+	73	47
-	+	73	37
-	+	73	28
-	+	22	0
-	+	20	25
-	+	64	54
-	+	24	16
-	+	20	1
-	+	33	43
-	+	38	64
-	+	31	19
-	+	42	33
-	+	73	20
-	+	103	19
-	+	73	77
-	+	75	69
-	+	19	34
-	+	75	71
-	+	73	0
-	+	73	77
-	+	74	65
-	+	74	0
-	+	70	52
-	+	64	0
-	+	33	37
-	+	42	28
-	+	20	0
-	+	43	35
-	+	40	37
-	+	33	0
-	+	40	0
-	+	33	50
-	+	40	57
-	+	20	37
-	+	21	23
-	+	105	20
-	+	106	12
-	+	43	48
-	+	52	0
-	+	43	58
-	+	43	0
-	+	44	0
-	+	74	76
-	+	71	0
-	+	76	65
-	+	71	49
-	+	70	0
-	+	74	148
-	+	72	0
-	+	74	248
-	+	72	0
-	+	74	208
-	+	75	0
-	+	72	0
-
-> ~/code/va/water_reqs.py
-	*	1641479426	0
-	"	1	0
-	^	3	25
-	.	3	24
-	+	3	60
-	+	5	12
-	+	4	31
-	+	1	0
-	+	3	24
-
-> ~/code/va/data_standardss/data_load/data_upload.py
-	*	1641406575	0
-	"	183	65
-	^	174	66
-	.	174	65
-	+	134	0
-	+	135	67
-	+	134	0
-	+	135	44
-	+	134	50
-	+	133	0
-	+	136	0
-	+	137	45
-	+	136	0
-	+	138	0
-	+	137	0
-	+	138	41
-	+	137	0
-	+	138	52
-	+	134	53
-	+	133	0
-	+	135	53
-	+	134	0
-	+	135	0
-	+	173	75
-	+	173	138
-	+	110	58
-	+	173	80
-	+	173	0
-	+	173	33
-	+	173	0
-	+	173	37
-	+	173	0
-	+	173	74
-	+	173	0
-	+	173	35
-	+	173	0
-	+	133	0
-	+	171	35
-	+	170	0
-	+	120	0
-	+	132	0
-	+	170	0
-	+	173	0
-	+	139	0
-	+	154	76
-	+	155	21
-	+	155	28
-	+	156	21
-	+	155	27
-	+	154	75
-	+	154	0
-	+	156	79
-	+	154	75
-	+	163	0
-	+	165	48
-	+	163	0
-	+	174	0
-	+	159	0
-	+	168	73
-	+	169	0
-	+	168	71
-	+	167	0
-	+	169	50
-	+	160	60
-	+	159	0
-	+	160	78
-	+	159	0
-	+	160	79
-	+	159	0
-	+	160	112
-	+	159	0
-	+	160	49
-	+	159	0
-	+	194	32
-	+	207	45
-	+	55	45
-	+	48	0
-	+	57	0
-	+	48	0
-	+	55	51
-	+	35	0
-	+	82	0
-	+	88	0
-	+	182	0
-	+	183	71
-	+	174	77
-	+	174	156
-	+	174	235
-	+	174	314
-	+	180	65
-	+	181	70
-	+	174	65
-
-> ~/code/va/data_standardss/data_load/start_dataloader.sh
-	*	1641405473	0
-	"	55	0
-	^	67	24
-	.	67	23
-	+	46	77
-	+	47	14
-	+	47	28
-	+	74	48
-	+	86	0
-	+	86	6
-	+	86	0
-	+	71	0
-	+	75	55
-	+	86	0
-	+	75	47
-	+	74	6
-	+	75	0
-	+	75	56
-	+	86	0
-	+	75	0
-	+	75	56
-	+	79	23
-	+	78	0
-	+	80	0
-	+	76	38
-	+	84	24
-	+	85	0
-	+	84	6
-	+	81	36
-	+	84	12
-	+	79	24
-	+	74	0
-	+	73	28
-	+	90	9
-	+	91	0
-	+	90	7
-	+	91	31
-	+	93	17
-	+	106	0
-	+	147	7
-	+	68	2
-	+	39	0
-	+	38	0
-	+	68	0
-	+	49	46
-	+	54	78
-	+	55	78
-	+	56	77
-	+	57	72
-	+	58	31
-	+	40	56
-	+	41	0
-	+	45	70
-	+	46	74
-	+	47	76
-	+	39	50
-	+	49	43
-	+	47	77
-	+	54	75
-	+	55	75
-	+	56	74
-	+	57	69
-	+	41	21
-	+	40	24
-	+	41	56
-	+	42	57
-	+	41	15
-	+	42	62
-	+	43	24
-	+	40	23
-	+	41	23
-	+	42	23
-	+	43	26
-	+	42	61
-	+	43	14
-	+	39	11
-	+	42	60
-	+	44	25
-	+	42	13
-	+	41	23
-	+	42	23
-	+	49	11
-	+	50	79
-	+	51	53
-	+	52	0
-	+	93	62
-	+	106	0
-	+	94	0
-	+	89	33
-	+	109	0
-	+	107	1
-	+	109	4
-	+	112	48
-	+	152	7
-	+	60	0
-	+	60	20
-	+	61	76
-	+	62	60
-	+	68	0
-	+	65	79
-	+	66	77
-	+	67	21
-	+	58	33
-	+	67	23
-
-> ~/code/va/data_standardss/cms_data_loader/curl.sh
-	*	1641402701	0
-	"	34	7
-	^	34	8
-	.	34	7
-	+	2	30
-	+	3	31
-	+	4	6
-	+	6	71
-	+	1	1
-	+	35	83
-	+	35	106
-	+	20	34
-	+	21	28
-	+	22	5
-	+	35	0
-	+	22	0
-	+	35	0
-	+	22	7
-	+	35	0
-	+	35	1
-	+	10	12
-	+	21	0
-	+	35	0
-	+	22	33
-	+	10	41
-	+	20	0
-	+	21	0
-	+	22	0
-	+	35	0
+> ~/.git/config
+	*	1649769410	0
+	"	10	1
+	.	12	0
 	+	12	0
-	+	10	49
-	+	23	7
-	+	24	4
-	+	23	7
-	+	24	31
-	+	35	0
-	+	28	0
-	+	6	78
-	+	28	42
-	+	30	0
-	+	32	0
-	+	30	28
-	+	32	28
-	+	28	65
-	+	30	65
-	+	32	28
-	+	35	0
-	+	18	0
-	+	25	7
-	+	32	66
-	+	34	0
-	+	35	0
-	+	34	49
-	+	26	0
-	+	5	0
-	+	7	4
-	+	28	4
-	+	7	0
-	+	5	18
-	+	5	5
-	+	8	67
-	+	8	0
-	+	9	0
-	+	28	0
-	+	27	65
-	+	29	64
-	+	31	57
-	+	33	65
-	+	6	7
-	+	10	7
-	+	28	8
-	+	30	7
-	+	32	7
-	+	34	7
 
-> ~/.tmux.conf
-	*	1641393936	0
-	"	102	29
-	^	103	59
-	.	103	58
-	+	12	29
-	+	13	0
-	+	4	0
-	+	112	28
-	+	96	0
-	+	5	0
-	+	112	28
-	+	104	45
-	+	104	0
-	+	74	32
-	+	82	44
-	+	75	0
-	+	73	39
-	+	54	26
-	+	100	1
-	+	75	0
-	+	73	0
-	+	72	0
-	+	97	31
-	+	92	38
-	+	85	34
-	+	87	30
-	+	89	38
-	+	91	36
-	+	92	40
-	+	19	36
-	+	21	17
-	+	61	22
-	+	59	7
-	+	59	11
-	+	60	47
-	+	61	48
-	+	69	14
-	+	19	16
-	+	20	0
-	+	62	21
-	+	63	0
-	+	67	24
-	+	58	7
-	+	62	6
-	+	99	43
-	+	102	30
-	+	103	58
+> ~/.viminfo
+	*	1649769103	0
+	"	30	0
 
-> ~/code/va/data_standardss/NERD_tree_1
-	*	1641392088	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /etc/resolv.conf
-	*	1641391475	0
-	"	1	0
-
-> /etc/wsl.conf
-	*	1641391377	0
-	"	3	0
-	^	3	0
-	.	2	21
-	+	2	21
-
-> ~/code/va/data_standardss/data_load/data_base.py
-	*	1641389461	0
-	"	64	62
-	^	68	37
-	.	66	0
-	+	25	0
-	+	1	0
-	+	20	0
-	+	1	0
-	+	23	0
-	+	16	0
-	+	18	0
-	+	20	0
-	+	1	0
-	+	10	0
-	+	13	0
-	+	12	13
-	+	13	72
-	+	14	14
-	+	20	0
-	+	19	0
-	+	45	11
-	+	113	11
-	+	148	11
-	+	186	11
-	+	186	12
-	+	278	11
-	+	201	0
-	+	203	0
-	+	211	0
-	+	219	0
-	+	232	0
-	+	278	11
-	+	37	11
-	+	57	0
-	+	178	0
-	+	59	0
-	+	109	20
-	+	105	20
-	+	89	0
-	+	60	67
-	+	61	10
-	+	84	0
-	+	86	68
-	+	92	0
-	+	89	0
-	+	84	0
-	+	92	31
-	+	89	0
-	+	84	40
-	+	86	0
-	+	84	0
-	+	87	34
-	+	92	32
-	+	87	32
-	+	92	32
-	+	67	0
-	+	66	0
-
-> ~/code/va/data_standardss/.git/COMMIT_EDITMSG
-	*	1641228798	0
-	"	1	27
-	^	1	28
-	.	1	27
-	+	1	27
-
-> ~/code/va/data_standardss/data_load/src/pypirc.cfg
-	*	1641228710	0
-	"	8	46
-	^	8	47
-	.	8	46
-	+	6	53
-	+	8	46
-
-> ~/code/eagle-i/common_package/src/pypirc.cfg
-	*	1641228000	0
-	"	1	0
-	^	1	2
-	.	1	0
-	+	1	0
-
-> ~/code/eagle-i/common_package/src/upload.sh
-	*	1641226870	0
-	"	1	0
-
-> ~/code/va/data_standardss/data_load/src/setup.py
-	*	1641226800	0
-	"	47	0
-	^	43	52
-	.	34	0
-	+	11	21
-	+	8	17
-	+	11	21
-	+	36	17
-	+	34	0
-	+	41	31
-	+	34	0
-	+	43	17
-	+	34	0
-
-> ~/code/eagle-i/common_package/src/setup.py
-	*	1641226385	0
-	"	36	0
-
-> ~/code/va/data_standardss/data_load/README.md
-	*	1641225861	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/dotfiles/t
-	*	1641222021	0
-	"	1	0
-	^	25	55
-	.	2	0
-	+	25	54
-	+	1	0
-	+	2	0
-
-> ~/code/va/data_standardss/Dockerfile
-	*	1640873464	0
-	"	10	0
-	.	13	0
-	+	2	59
-	+	1	5
-	+	1	0
-	+	13	0
-	+	14	0
-	+	13	1
-	+	15	0
-	+	13	0
-
-> ~/code/va/data_standardss/cms_data_loader/test-db-conn
-	*	1640802897	0
-	"	48	3
-	^	48	4
-	.	48	3
-	+	48	3
-
-> ~/code/va/data_standardss/test-db-conn
-	*	1640802833	0
-	"	1	0
-
-> ~/code/va/data_standardss/cms_data_loader/requirements.txt
-	*	1640798168	0
-	"	4	8
-	^	4	9
-	.	4	8
-	+	3	15
-	+	4	0
-	+	4	8
-
-> ~/code/va/data_standardss/cms_data_loader/NERD_tree_1
-	*	1640798085	0
+> ~/NERD_tree_1
+	*	1649768802	0
 	"	5	0
 	.	1	0
 	+	1	0
 
-> ~/code/va/data_standardss/cms_data_loader/NERD_tree_2
-	*	1640798085	0
+> ~/.custom/customize-environment.sh
+	*	1649768772	0
 	"	1	0
-	.	1	0
-	+	1	0
 
-> ~/code/va/data_standardss/nics_data_loader/Dockerfile
-	*	1640797163	0
+> ~/.bash_logout
+	*	1649768692	0
 	"	1	0
-	^	1	1
-	.	1	1
-	+	13	7
-	+	10	5
+
+> ~/.bash_history
+	*	1649768604	0
+	"	14	0
+
+> ~/.gitignore
+	*	1649768425	0
+	"	10	19
+	^	10	20
+	.	10	19
+	+	1	2
+	+	5	2
+	+	1	18
+	+	4	24
+	+	2	2
+	+	8	31
+	+	7	27
+	+	11	3
+	+	10	19
+
+> ~/.git/MERGE_MSG
+	*	1649768222	0
+	"	1	0
+
+> ~/code/nset/common-package/README.md
+	*	1649685698	0
+	"	63	30
+	^	63	31
+	.	63	30
+	+	12	51
 	+	13	0
-	+	11	15
-	+	8	26
-	+	1	1
-
-> ~/code/va/data_standardss/update_docs.sh
-	*	1640783903	0
-	"	28	32
-	^	28	33
-	.	28	32
-	+	8	29
-	+	14	37
-	+	2	60
-	+	6	14
-	+	8	78
-	+	12	14
-	+	14	74
-	+	18	14
-	+	20	73
-	+	24	52
-	+	2	33
-	+	6	37
-	+	8	40
-	+	2	38
-	+	6	42
-	+	8	10
 	+	12	0
-	+	14	0
-	+	12	17
-	+	14	17
-	+	18	17
-	+	20	34
-	+	2	40
-	+	6	7
-	+	8	7
-	+	12	7
-	+	14	7
-	+	18	7
-	+	20	7
-	+	24	7
-	+	6	44
-	+	8	16
-	+	2	0
-	+	6	0
-	+	24	23
-	+	2	25
-	+	6	25
-	+	8	23
-	+	12	23
-	+	14	23
-	+	18	23
-	+	20	24
-	+	24	81
-	+	26	16
-	+	26	20
-	+	26	61
-	+	26	31
-	+	26	26
-	+	26	38
-	+	2	9
-	+	6	29
-	+	2	33
-	+	7	11
-	+	2	53
-	+	2	27
-	+	7	36
-	+	2	30
-	+	7	0
-	+	3	0
-	+	8	11
-	+	12	36
-	+	14	11
-	+	12	11
-	+	6	11
-	+	18	42
-	+	20	11
-	+	24	39
-	+	26	0
-	+	2	11
-	+	2	12
-	+	2	34
-	+	6	0
-	+	7	0
-	+	6	33
-	+	8	0
-	+	8	10
-	+	12	10
-	+	14	10
-	+	18	10
-	+	20	10
-	+	24	10
-	+	8	0
-	+	12	0
-	+	2	33
-	+	6	0
-	+	7	0
-	+	5	0
-	+	13	0
-	+	11	0
-	+	17	0
-	+	23	0
-	+	6	38
-	+	12	45
-	+	18	48
-	+	24	45
-	+	26	0
-	+	24	67
-	+	26	26
-	+	30	26
-	+	28	32
-
-> ~/code/va/data_standardss/usda_data_loader/Dockerfile
-	*	1640727191	0
-	"	1	1
-	.	19	0
-	+	19	0
-	+	19	28
-	+	18	16
-	+	19	58
-	+	19	0
-
-> ~/code/va/data_standardss/notes/links.txt
-	*	1640713767	0
-	"	7	58
-	^	7	60
-	.	7	59
-	+	7	59
-
-> ~/code/va/data_standardss/Documentation.MD
-	*	1640708256	0
-	"	506	9
-
-> ~/code/va/data_standardss/usda_data_loader/transform.py
-	*	1640706946	0
-	"	155	16
-	^	155	61
-	.	155	0
-	+	158	0
-	+	138	46
-	+	159	74
-	+	158	0
-	+	160	0
-	+	149	0
-	+	137	0
-	+	137	49
-	+	150	0
-	+	150	44
-	+	151	0
-	+	152	38
-	+	163	0
-	+	153	29
-	+	152	0
-	+	158	20
-	+	153	63
-	+	152	0
-	+	158	0
-	+	155	50
-	+	156	33
-	+	155	0
-	+	156	0
-	+	155	0
-	+	156	0
-	+	156	63
-	+	155	0
-	+	164	0
-	+	165	55
-	+	164	0
-	+	165	90
-	+	164	0
-	+	165	107
-	+	164	0
-	+	155	39
-	+	164	0
-	+	152	0
-	+	153	0
-	+	148	0
-	+	166	64
-	+	164	0
-	+	168	0
-	+	19	12
-	+	168	32
-	+	167	0
-	+	168	66
-	+	167	0
-	+	168	68
-	+	167	0
-	+	164	0
-	+	167	0
-	+	168	33
-	+	166	0
-	+	168	33
-	+	166	0
-	+	167	0
-	+	166	0
-	+	168	56
-	+	166	0
-	+	167	0
-	+	166	0
-	+	167	0
-	+	168	6
-	+	19	0
-	+	168	75
-	+	167	0
-	+	168	73
-	+	167	0
-	+	163	0
-	+	168	81
-	+	168	0
-	+	167	0
-	+	169	14
-	+	167	0
-	+	154	0
-	+	155	32
-	+	154	0
-	+	155	26
-	+	154	0
-	+	155	0
-
-> ~/code/va/data_standardss/nics_data_loader/curl.sh
-	*	1640705803	0
-	"	1	0
-	^	9	43
-	.	6	0
-	+	8	108
-	+	8	48
-	+	10	0
-	+	8	0
-	+	9	42
-	+	6	0
-
-> ~/code/va/data_standardss/usda_data_loader/transform.
-	*	1640700169	0
-	"	1	0
-
-> ~/code/va/data_standardss/usda_data_loader/requirements.txt
-	*	1640698865	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	11
-	+	2	9
-
-> ~/code/va/data_standardss/usda_data_loader/curl.sh
-	*	1640697295	0
-	"	4	0
-	^	2	11
-	.	3	0
-	+	2	90
-	+	3	2
-	+	6	20
-	+	3	5
-	+	2	35
-	+	4	0
-	+	3	29
-	+	2	35
-	+	4	6
-	+	6	37
-	+	7	0
-	+	6	59
-	+	2	10
-	+	3	0
-
-> ~/code/va/data_standardss/data_load/tests/testdata/TEST.csv
-	*	1640644255	0
-	"	4	0
-	^	4	8
-	.	5	0
-	+	5	0
-	+	4	7
-	+	5	0
-
-> ~/code/va/data_standardss/data_load/tests/test.py
-	*	1640643918	0
-	"	56	20
-	^	79	32
-	.	117	0
-	+	59	24
+	+	10	40
+	+	56	44
+	+	129	2
+	+	57	3
 	+	58	0
-	+	60	22
-	+	51	38
-	+	53	44
-	+	59	0
-	+	93	8
-	+	61	31
-	+	60	0
-	+	62	45
-	+	63	31
-	+	62	0
-	+	63	45
-	+	64	45
-	+	63	0
-	+	93	0
-	+	49	43
-	+	50	0
-	+	38	0
-	+	28	0
-	+	65	56
-	+	65	0
-	+	67	0
-	+	69	77
-	+	67	50
-	+	68	56
-	+	74	35
-	+	69	16
-	+	68	0
-	+	71	0
-	+	92	0
+	+	60	39
+	+	61	0
+	+	64	23
+	+	66	27
+	+	69	60
+	+	73	15
+	+	80	3
+	+	74	18
+	+	75	21
+	+	76	24
+	+	77	21
+	+	78	21
+	+	79	24
+	+	83	48
 	+	72	52
-	+	76	34
-	+	75	0
-	+	76	49
-	+	76	77
-	+	75	0
-	+	92	8
-	+	68	0
-	+	75	0
-	+	92	8
-	+	78	0
-	+	92	0
-	+	78	0
-	+	79	69
-	+	79	68
-	+	78	0
-	+	79	68
-	+	80	0
-	+	81	0
-	+	82	0
-	+	83	0
-	+	85	46
-	+	94	0
-	+	91	0
-	+	75	0
-	+	87	49
-	+	81	0
-	+	87	57
-	+	88	24
-	+	81	0
-	+	88	34
-	+	89	24
-	+	90	7
-	+	96	67
-	+	94	0
-	+	53	6
-	+	124	2
-	+	82	0
-	+	94	0
-	+	81	0
-	+	54	7
-	+	53	0
-	+	55	11
-	+	124	0
-	+	55	0
-	+	124	0
-	+	71	9
-	+	72	8
-	+	71	8
-	+	69	0
-	+	69	56
-	+	70	10
-	+	73	36
-	+	63	10
-	+	68	47
-	+	69	10
-	+	63	0
-	+	62	0
-	+	69	0
-	+	120	26
-	+	111	0
-	+	117	0
-	+	111	0
-	+	118	46
-	+	117	0
-	+	111	0
-	+	118	46
-	+	117	0
+	+	82	46
+	+	90	23
+	+	94	30
+	+	93	68
+	+	85	0
+	+	83	50
+	+	106	17
+	+	105	72
+	+	102	70
+	+	103	19
+	+	101	39
+	+	103	35
+	+	98	28
+	+	110	60
+	+	109	4
+	+	108	9
+	+	109	42
+	+	115	40
+	+	119	46
+	+	118	17
+	+	109	27
+	+	105	58
+	+	118	49
+	+	129	3
+	+	119	49
+	+	123	61
+	+	129	0
+	+	122	6
+	+	128	26
+	+	127	46
+	+	63	30
 
-> ~/.bashrc
-	*	1640643112	0
-	"	102	18
-	^	102	19
-	.	102	18
-	+	101	24
-	+	15	22
-	+	20	0
-	+	18	0
-	+	21	0
-	+	17	0
-	+	18	1
-	+	20	0
-	+	43	0
-	+	18	0
-	+	21	0
-	+	102	18
+> ~/code/nset/common-package/.git/MERGE_MSG
+	*	1649685589	0
+	"	1	0
 
-> ~/code/va/data_standardss/data_load/ahrf_data.py
-	*	1640632386	0
-	"	38	0
-	^	30	1
+> ~/code/nset/common-package/NOTES
+	*	1649683884	0
+	"	1	0
 
-> ~/code/eagle-i/common_package/src/scripts/test-db-conn
-	*	1640630638	0
-	"	46	0
-	^	38	75
-	.	38	74
-	+	38	74
+> ~/code/nset/common-package/docs/database.md
+	*	1649683872	0
+	"	14	0
 
-> ~/code/va/data_standardss/docker-compose.test.yml
-	*	1640617708	0
-	"	37	21
-	^	37	22
-	.	37	21
-	+	34	28
-	+	34	0
-	+	34	35
-	+	34	68
-	+	34	19
-	+	34	93
-	+	34	0
-	+	34	9
-	+	34	41
-	+	34	0
-	+	4	0
-	+	5	25
-	+	6	0
-	+	34	0
-	+	34	17
-	+	5	3
-	+	34	79
-	+	34	74
-	+	34	26
-	+	34	21
-	+	34	0
-	+	34	8
-	+	34	30
-	+	4	9
-	+	34	28
-	+	34	0
-	+	11	0
-	+	10	0
-	+	11	8
-	+	12	8
-	+	31	39
-	+	20	25
-	+	18	30
-	+	20	25
-	+	18	28
-	+	10	4
-	+	11	6
-	+	12	6
-	+	16	0
-	+	18	29
-	+	31	78
-	+	34	36
-	+	39	0
-	+	34	36
-	+	32	0
-	+	33	0
-	+	32	0
-	+	35	4
-	+	37	21
+> ~/code/va/spatial_data_pipeline/webapp/frontend/src/ImportCsvDialog.js
+	*	1649683637	0
+	"	110	37
+	^	93	12
+	.	44	0
+	+	93	12
+	+	44	0
 
 > ~/.vimrc
-	*	1640617208	0
-	"	42	0
-	^	26	0
-	.	28	0
-	+	79	50
-	+	79	0
-	+	64	0
-	+	63	49
-	+	41	0
-	+	64	0
-	+	101	73
-	+	138	0
-	+	136	3
-	+	137	0
-	+	119	22
-	+	6	4
-	+	5	5
-	+	6	0
-	+	36	29
-	+	36	0
-	+	36	29
-	+	37	7
-	+	36	3
-	+	36	0
-	+	119	23
-	+	118	22
-	+	119	24
-	+	119	37
-	+	119	19
-	+	119	28
-	+	119	78
-	+	78	14
-	+	93	0
-	+	119	0
-	+	66	4
-	+	68	4
-	+	69	4
-	+	70	4
-	+	34	22
-	+	12	25
-	+	34	24
-	+	34	0
-	+	14	24
-	+	41	0
-	+	40	26
-	+	66	1
-	+	9	0
-	+	69	0
-	+	91	0
-	+	89	29
-	+	74	4
-	+	77	4
-	+	71	25
-	+	38	20
-	+	34	0
-	+	18	29
-	+	16	0
-	+	31	39
-	+	32	78
-	+	33	37
-	+	20	0
-	+	20	15
-	+	23	20
-	+	22	15
-	+	23	15
-	+	22	14
-	+	23	18
-	+	28	23
-	+	26	0
-	+	28	0
+	*	1649683556	0
+	"	79	18
+	^	79	19
+	.	79	18
+	+	16	9
+	+	80	30
+	+	82	30
+	+	79	18
 
-> ~/code/va/data_standardss/data_load/tests/TEST_TWO.csv
-	*	1640616752	0
-	"	4	5
-	^	4	6
-	.	5	0
-	+	5	0
-
-> ~/code/va/data_standardss/data_load/scripts/start_dataloader.sh
-	*	1640612737	0
-	"	178	3
-	^	177	49
-	.	177	44
-	+	73	43
-	+	177	0
-	+	178	0
-	+	177	44
-
-> ~/code/va/data_standardss/tests/data_loader_data_upload_test.py
-	*	1640611568	0
-	"	20	0
-	^	20	1
-	.	20	1
-	+	1	0
-	+	12	0
-	+	11	29
-	+	11	0
-	+	11	34
-	+	6	9
-	+	11	7
-	+	9	0
-	+	10	0
-	+	11	0
-	+	20	1
-
-> ~/code/va/data_standardss/data_load/watcher.py
-	*	1640198640	0
-	"	37	27
-	.	72	0
-	+	68	26
-	+	64	0
-	+	68	54
-	+	64	0
-	+	68	25
-	+	64	0
-	+	65	15
-	+	67	0
-	+	66	15
-	+	73	27
-	+	23	0
-	+	21	0
-	+	20	0
-	+	21	0
-	+	20	24
-	+	23	0
-	+	51	0
-	+	51	71
-	+	63	11
-	+	63	58
-	+	63	31
-	+	63	0
-	+	63	73
-	+	63	0
-	+	63	73
-	+	20	16
-	+	52	28
-	+	63	0
-	+	20	0
-	+	60	31
-	+	59	0
-	+	18	10
-	+	63	27
-	+	41	0
-	+	42	0
-	+	44	0
-	+	42	60
-	+	42	50
-	+	41	0
-	+	42	45
-	+	42	51
-	+	41	0
-	+	60	63
-	+	46	0
-	+	30	17
-	+	34	43
-	+	54	21
-	+	55	0
-	+	54	23
-	+	61	46
-	+	62	27
-	+	19	34
-	+	53	0
-	+	72	27
-	+	44	0
-	+	34	73
-	+	35	0
-	+	34	76
-	+	42	0
-	+	31	17
-	+	42	29
-	+	45	17
-	+	50	0
-	+	34	74
-	+	34	75
-	+	29	0
-	+	42	0
-	+	32	16
-	+	43	12
-	+	61	53
-	+	60	0
-	+	74	27
-	+	56	23
-	+	56	45
-	+	55	0
-	+	60	0
-	+	62	14
-	+	62	48
-	+	61	0
-	+	63	41
-	+	63	0
-	+	56	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	69	32
-	+	71	19
-	+	69	0
-	+	71	21
-	+	69	32
-	+	70	44
-	+	42	17
-	+	72	27
-	+	75	31
-	+	72	8
-	+	75	0
-	+	72	0
-
-> ~/code/va/data_standardss/README.MD
-	*	1640197722	0
-	"	55	2
-	^	55	3
-	.	55	2
-	+	35	10
-	+	36	0
-	+	34	0
-	+	36	0
-	+	31	60
-	+	33	154
-	+	36	1
-	+	31	0
-	+	36	29
-	+	38	44
-	+	40	0
-	+	36	70
-	+	40	125
-	+	36	61
-	+	40	0
-	+	40	142
-	+	42	82
-	+	43	3
-	+	44	199
-	+	54	34
-	+	55	2
-
-> ~/code/va/data_standardss/data_load/tests/testdata/test.csv
-	*	1640190523	0
-	"	1	0
-	^	4	7
-	.	4	6
-	+	2	7
-	+	2	0
-	+	4	6
-
-> ~/code/va/data_standardss/data_load/NERD_tree_1
-	*	1640187505	0
-	"	22	0
-	.	1	0
-	+	1	0
-
-> ~/code/va/data_standardss/data_load/tests/NERD_tree_1
-	*	1640184771	0
-	"	8	0
-	.	1	0
-	+	1	0
-
-> ~/code/va/data_standardss/data_load/tests/testdata/dummyfile.txt
-	*	1640183434	0
-	"	1	58
-	^	1	59
-	.	1	58
-	+	1	58
-
-> ~/code/va/data_standardss/docker-compose.t
-	*	1640124698	0
-	"	1	0
-
-> ~/code/eagle-i/common_package/src/common/database.py
-	*	1640110680	0
-	"	116	14
-
-> ~/code/eagle-i/common_package/docker-compose.test.yaml
-	*	1640110679	0
-	"	26	0
-	^	1	1
-	.	1	0
-	+	11	38
-	+	11	25
-	+	11	59
-	+	9	0
-	+	11	0
-	+	10	6
-	+	11	0
-	+	10	9
-	+	11	0
-	+	1	0
-
-> ~/code/va/data_standardss/start_tests.sh
-	*	1640108771	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/code/va/data_standardss/data_load/tests/data_upload_test.py
-	*	1640107852	0
-	"	12	0
-	^	37	0
-	.	36	0
-	+	89	21
-	+	89	0
-	+	89	21
-	+	89	15
-	+	89	0
-	+	89	18
-	+	89	0
-	+	89	28
-	+	89	0
-	+	89	19
-	+	89	20
-	+	89	21
-	+	89	0
-	+	89	16
-	+	89	46
-	+	89	22
-	+	89	0
-	+	89	8
-	+	89	0
-	+	89	59
-	+	89	0
-	+	89	30
-	+	89	36
-	+	89	24
-	+	89	0
-	+	89	25
-	+	89	0
-	+	91	0
-	+	89	22
-	+	89	41
-	+	89	36
-	+	89	44
-	+	89	72
-	+	89	20
-	+	89	62
-	+	89	47
-	+	89	27
-	+	89	36
-	+	89	9
-	+	89	33
-	+	89	57
-	+	89	36
-	+	89	47
-	+	89	44
-	+	89	48
-	+	89	43
-	+	89	31
-	+	89	74
-	+	89	47
-	+	89	25
-	+	89	51
-	+	89	55
-	+	89	75
-	+	89	74
-	+	38	41
-	+	41	0
-	+	10	13
-	+	89	24
-	+	89	0
-	+	41	0
-	+	41	4
-	+	41	0
-	+	89	0
-	+	42	0
-	+	41	0
-	+	41	29
-	+	41	37
-	+	41	24
-	+	41	50
-	+	41	31
-	+	41	66
-	+	38	0
-	+	41	0
-	+	39	19
-	+	40	37
-	+	38	19
-	+	16	0
-	+	3	26
-	+	41	0
-	+	18	0
-	+	16	0
-	+	36	0
-
-> ~/code/va/data_standardss/data_load/tests/data_base_test.py
-	*	1640107850	0
-	"	18	0
-	^	17	0
-	.	16	0
-	+	1	0
-	+	1	3
-	+	1	0
-	+	18	17
-	+	22	0
-	+	19	20
-	+	20	38
-	+	3	24
-	+	16	0
-
-> ~/code/eagle-i/common_package/Dockerfile
-	*	1640092672	0
-	"	7	0
-	^	11	35
-	.	11	35
-	+	10	43
-	+	11	17
-	+	10	22
-	+	10	0
-	+	11	35
-
-> ~/code/va/data_standardss/process/test1
-	*	1640038710	0
-	"	2	0
-	^	2	0
-	.	1	2
-	+	1	2
-
-> ~/code/va/data_standardss/data_load/NERD_tree_2
-	*	1640037788	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/code/eagle-i/common_package/sql/create_tables.sql
-	*	1640032699	0
-	"	1	0
-
-> ~/code/va/data_standardss/sql/fill_tables.sql
-	*	1640032649	0
-	"	1	48
-	^	1	49
-	.	1	48
-	+	1	48
-
-> ~/code/eagle-i/common_package/sql/fill_tables.sql
-	*	1640032637	0
-	"	1	0
-
-> ~/code/va/data_standardss/sql/create_tables.sql
-	*	1640032612	0
+> ~/code/va/spatial_data_pipeline/docker-compose.webapp.yml
+	*	1649683192	0
 	"	5	0
-	^	5	6
-	.	5	0
-	+	5	0
+	^	16	4
+	.	16	4
+	+	16	27
+	+	17	0
+	+	20	6
+	+	16	4
 
-> ~/code/eagle-i/common_package/envfile
-	*	1640032456	0
+> ~/.tmux/plugins/tmux-power/tmux-power.tmux
+	*	1649682196	0
+	"	37	40
+	^	37	41
+	.	37	40
+	+	37	40
+
+> ~/tm
+	*	1649681581	0
 	"	1	0
-	^	9	27
-	.	9	26
+
+> ~/.tmux.conf
+	*	1649681575	0
+	"	95	0
+
+> ~/code/nset/common-package/NERD_tree_1
+	*	1649681515	0
+	"	1	0
+	.	1	0
 	+	1	0
-	+	9	26
 
-> ~/code/va/data_standardss/fill_tables.sql
-	*	1640031518	0
-	"	1	48
-	^	1	49
-	.	1	48
-	+	1	48
+> ~/code/va/spatial_data_pipeline/Dockerfile
+	*	1649443028	0
+	"	2	0
+	^	11	53
+	.	11	52
+	+	11	52
 
-> ~/code/va/data_standardss/create_tables.sql
-	*	1640031479	0
-	"	3	4
-	^	5	18
-	.	5	0
-	+	5	17
+> ~/code/va/spatial_data_pipeline/docker-compose.utility.yml
+	*	1649443026	0
+	"	24	16
+	^	22	37
+	.	22	37
+	+	1	0
 	+	3	0
+	+	6	0
+	+	19	8
+	+	19	2
+	+	20	1
+	+	19	0
+	+	44	0
+	+	52	0
+	+	57	0
+	+	45	0
+	+	53	0
+	+	58	0
+	+	57	0
+	+	52	0
+	+	44	0
+	+	5	0
+	+	59	0
+	+	67	12
+	+	67	24
+	+	68	64
+	+	67	4
+	+	68	4
+	+	67	0
+	+	70	18
+	+	51	18
+	+	47	66
+	+	50	29
+	+	48	0
+	+	50	0
+	+	56	0
+	+	22	37
+
+> ~/code/va/spatial_data_pipeline/sqlsvr_push/Dockerfile
+	*	1649443026	0
+	"	2	66
+	^	2	67
+	.	2	66
+	+	2	45
+	+	3	0
+	+	2	66
+
+> ~/code/va/spatial_data_pipeline/webapp/frontend/Dockerfile
+	*	1649442703	0
+	"	8	35
+	^	8	36
+	.	8	35
+	+	1	0
+	+	6	0
+	+	8	35
+
+> ~/code/va/spatial_data_pipeline/webapp/backend/Dockerfile
+	*	1649441947	0
+	"	3	0
+	^	22	28
+	.	3	0
+	+	22	44
+	+	3	23
+	+	22	0
+	+	3	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/crud_table.py
+	*	1649441594	0
+	"	72	0
+	.	182	0
+	+	105	22
+	+	102	28
+	+	103	29
+	+	102	29
+	+	104	28
+	+	105	50
+	+	104	0
+	+	105	49
+	+	104	0
+	+	105	12
+	+	104	0
+	+	162	11
+	+	162	0
+	+	229	0
+	+	162	0
+	+	164	0
+	+	162	0
+	+	165	0
+	+	178	12
+	+	183	0
+	+	182	0
+	+	179	0
+	+	181	0
+	+	179	0
+	+	209	0
+	+	201	0
+	+	186	0
+	+	185	15
+	+	204	62
+	+	208	11
+	+	209	0
+	+	218	31
+	+	228	0
+	+	229	0
+	+	219	0
+	+	228	0
+	+	219	64
+	+	219	0
+	+	219	70
+	+	219	73
+	+	219	0
+	+	220	30
+	+	219	0
+	+	221	58
+	+	230	0
+	+	211	71
+	+	212	17
+	+	246	11
+	+	247	0
+	+	269	0
+	+	275	0
+	+	270	0
+	+	287	11
+	+	288	0
+	+	306	0
+	+	309	47
+	+	307	0
+	+	309	58
+	+	307	0
+	+	325	0
+	+	107	26
+	+	102	0
+	+	91	18
+	+	92	0
+	+	90	36
+	+	311	0
+	+	312	0
+	+	297	36
+	+	298	0
+	+	296	36
+	+	294	59
+	+	294	60
+	+	293	0
+	+	274	0
+	+	275	0
+	+	260	18
+	+	261	0
+	+	259	36
+	+	224	0
+	+	228	0
+	+	226	26
+	+	219	0
+	+	225	0
+	+	127	18
+	+	227	59
+	+	171	40
+	+	172	0
+	+	170	50
+	+	182	0
+	+	179	0
+	+	182	0
+	+	194	40
+	+	195	0
+	+	193	50
+	+	208	0
+	+	202	0
+	+	208	0
+	+	206	0
+	+	208	0
+	+	182	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/database.py
+	*	1649441593	0
+	"	586	38
+	^	594	39
+	.	594	38
+	+	376	32
+	+	378	30
+	+	382	36
+	+	384	27
+	+	386	43
+	+	388	26
+	+	400	28
+	+	402	49
+	+	404	50
+	+	411	29
+	+	413	37
+	+	415	33
+	+	419	29
+	+	421	55
+	+	426	12
+	+	427	44
+	+	429	24
+	+	431	0
+	+	443	0
+	+	432	0
+	+	435	15
+	+	443	0
+	+	437	47
+	+	437	27
+	+	439	58
+	+	441	16
+	+	439	0
+	+	443	0
+	+	436	33
+	+	438	56
+	+	442	0
+	+	440	37
+	+	444	47
+	+	446	34
+	+	449	0
+	+	448	30
+	+	453	28
+	+	455	49
+	+	492	0
+	+	497	0
+	+	569	0
+	+	558	0
+	+	569	0
+	+	561	15
+	+	460	51
+	+	466	10
+	+	465	67
+	+	485	41
+	+	488	50
+	+	490	24
+	+	496	59
+	+	498	47
+	+	500	35
+	+	502	34
+	+	504	30
+	+	508	38
+	+	510	27
+	+	512	49
+	+	514	26
+	+	526	28
+	+	528	34
+	+	530	46
+	+	537	29
+	+	539	42
+	+	541	33
+	+	545	36
+	+	547	54
+	+	553	12
+	+	554	50
+	+	556	24
+	+	569	0
+	+	563	28
+	+	567	0
+	+	569	0
+	+	565	0
+	+	562	12
+	+	565	42
+	+	563	0
+	+	565	57
+	+	439	57
+	+	562	39
+	+	564	55
+	+	566	37
+	+	569	0
+	+	568	0
+	+	570	47
+	+	572	35
+	+	574	30
+	+	578	58
+	+	579	25
+	+	585	0
+	+	583	0
+	+	586	56
+	+	592	10
+	+	591	39
+	+	594	38
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/tasks.py
+	*	1649439848	0
+	"	243	45
+	^	337	14
+	.	337	13
+	+	151	0
+	+	151	64
+	+	150	0
+	+	152	69
+	+	154	22
+	+	154	0
+	+	150	14
+	+	149	37
+	+	154	0
+	+	153	24
+	+	183	0
+	+	183	28
+	+	202	0
+	+	201	28
+	+	183	0
+	+	178	0
+	+	89	26
+	+	34	77
+	+	36	16
+	+	24	37
+	+	36	34
+	+	232	0
+	+	229	38
+	+	232	0
+	+	229	39
+	+	230	12
+	+	232	0
+	+	251	17
+	+	236	21
+	+	227	21
+	+	230	22
+	+	230	35
+	+	229	0
+	+	230	16
+	+	230	40
+	+	230	17
+	+	230	0
+	+	230	56
+	+	230	0
+	+	230	22
+	+	230	0
+	+	230	51
+	+	230	0
+	+	230	29
+	+	230	0
+	+	230	63
+	+	230	13
+	+	231	23
+	+	230	0
+	+	251	0
+	+	327	12
+	+	332	16
+	+	331	9
+	+	327	20
+	+	332	64
+	+	332	27
+	+	256	29
+	+	257	0
+	+	258	57
+	+	260	0
+	+	259	12
+	+	260	48
+	+	259	0
+	+	260	9
+	+	260	0
+	+	266	12
+	+	260	23
+	+	266	0
+	+	263	22
+	+	261	0
+	+	263	79
+	+	261	0
+	+	264	0
+	+	263	78
+	+	265	30
+	+	258	16
+	+	296	0
+	+	295	0
+	+	298	74
+	+	299	18
+	+	301	57
+	+	303	38
+	+	330	70
+	+	226	0
+	+	225	0
+	+	332	0
+	+	333	0
+	+	329	0
+	+	330	0
+	+	262	23
+	+	263	0
+	+	233	23
+	+	234	0
+	+	306	18
+	+	305	0
+	+	306	23
+	+	307	0
+	+	334	0
+	+	337	13
+
+> ~/code/nset/common-package/test/test.py
+	*	1649436551	0
+	"	296	0
+	^	296	0
+	.	296	0
+	+	29	0
+	+	29	41
+	+	28	0
+	+	31	0
+	+	28	12
+	+	297	0
+	+	297	14
+	+	297	27
+	+	297	0
+	+	36	0
+	+	35	0
+	+	64	0
+	+	297	0
+	+	64	16
+	+	64	37
+	+	64	15
+	+	64	18
+	+	64	31
+	+	64	0
+	+	64	67
+	+	64	0
+	+	21	47
+	+	64	0
+	+	64	24
+	+	64	0
+	+	64	40
+	+	64	48
+	+	64	37
+	+	64	15
+	+	64	0
+	+	64	41
+	+	64	0
+	+	64	40
+	+	64	0
+	+	64	51
+	+	64	0
+	+	39	26
+	+	64	0
+	+	37	0
+	+	64	21
+	+	51	59
+	+	64	69
+	+	64	25
+	+	64	0
+	+	64	50
+	+	64	0
+	+	51	38
+	+	39	26
+	+	39	37
+	+	51	38
+	+	39	0
+	+	38	0
+	+	39	33
+	+	47	37
+	+	61	0
+	+	39	15
+	+	64	0
+	+	41	0
+	+	64	0
+	+	45	0
+	+	64	0
+	+	55	0
+	+	64	0
+	+	59	0
+	+	64	0
+	+	45	0
+	+	43	29
+	+	41	0
+	+	49	0
+	+	53	0
+	+	57	0
+	+	63	0
+	+	40	46
+	+	42	45
+	+	44	54
+	+	46	49
+	+	48	35
+	+	50	37
+	+	52	35
+	+	54	36
+	+	56	35
+	+	58	54
+	+	60	33
+	+	62	35
+	+	34	23
+	+	34	26
+	+	34	40
+	+	36	17
+	+	66	0
+	+	65	0
+	+	66	0
+	+	66	20
+	+	66	17
+	+	34	0
+	+	66	0
+	+	270	0
+	+	296	0
+
+> ~/code/nset/common-package/src/common/crud_table.py
+	*	1649436407	0
+	"	208	0
+	^	128	74
+	.	228	0
+	+	128	74
+	+	228	0
+
+> ~/code/nset/common-package/test/test_mssql.py
+	*	1649436407	0
+	"	41	39
+	^	41	40
+	.	40	0
+	+	24	0
+	+	14	0
+	+	9	38
+	+	20	0
+	+	19	0
+	+	72	0
+	+	44	0
+	+	72	0
+	+	41	0
+	+	42	0
+	+	14	6
+	+	17	37
+	+	24	37
+	+	49	0
+	+	29	13
+	+	52	20
+	+	51	0
+	+	52	36
+	+	51	0
+	+	40	0
+	+	53	27
+	+	52	0
+	+	16	54
+	+	55	45
+	+	59	64
+	+	63	56
+	+	40	0
+
+> ~/code/nset/common-package/test/mssql_test_server/sql/setup.sql
+	*	1649436282	0
+	"	5	32
+	^	5	33
+	.	5	32
+	+	6	1
+	+	5	32
+
+> ~/code/nset/common-package/test/mssql_test_server/sql/db_table_entries.csv
+	*	1649436011	0
+	"	1	0
+
+> ~/code/nset/common-package/envfile_mssql
+	*	1649435909	0
+	"	1	0
+
+> ~/code/nset/common-package/docker-compose.test_mssql.yaml
+	*	1649434473	0
+	"	21	0
+
+> ~/code/nset/common-package/docker-compose.test.yaml
+	*	1649434447	0
+	"	16	0
+	.	14	0
+	+	10	0
+	+	13	0
+	+	10	0
+	+	14	0
+
+> ~/code/nset/common-package/sql/create_tables.sql
+	*	1649432856	0
+	"	3	0
+
+> ~/code/nset/common-package/sql/fill_tables.sql
+	*	1649432809	0
+	"	1	0
+
+> ~/code/nset/common-package/test_envfile
+	*	1649431459	0
+	"	13	34
+	^	13	35
+	.	13	34
+	+	16	13
+	+	12	29
+	+	13	33
+	+	14	0
+	+	14	1
+	+	15	1
+	+	16	1
+	+	14	0
+	+	11	1
+	+	12	30
+	+	13	34
+
+> ~/code/nset/common-package/envfile
+	*	1649431433	0
+	"	10	0
+
+> ~/code/nset/common-package/test/test
+	*	1649431104	0
+	"	1	0
+
+> ~/.profile
+	*	1649431072	0
+	"	59	36
+	^	59	37
+	.	59	36
+	+	42	1
+	+	43	29
+	+	55	24
+	+	47	1
+	+	48	28
+	+	58	7
+	+	59	0
+	+	58	8
+	+	57	5
+	+	56	5
+	+	53	0
+	+	59	36
+
+> ~/.bashrc
+	*	1649430639	0
+	"	103	0
+	.	103	0
+	+	103	0
+
+> /mnt/c/Users/aoe/.wslconfig
+	*	1649430539	0
+	"	1	0
+	^	2	9
+	.	2	8
+	+	2	8
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/requirements.txt
+	*	1649429462	0
+	"	1	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/Dockerfile
+	*	1649429447	0
+	"	1	0
+	^	24	42
+	.	24	41
+	+	24	181
+	+	24	44
+	+	25	3
+	+	26	3
+	+	23	25
+	+	24	41
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/297
+	*	1649427483	0
+	"	1	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/.git/modules/webapp/MERGE_MSG
+	*	1649426737	0
+	"	1	0
+
+> ~/code/va/spatial_data_pipeline/default.env
+	*	1649425709	0
+	"	35	55
+	^	35	56
+	.	35	55
+	+	33	16
+	+	35	55
+
+> ~/code/va/spatial_data_pipeline/sqlsvr_push/db_transfer.py
+	*	1649425636	0
+	"	111	73
+	^	111	74
+	.	109	0
+	+	20	45
+	+	30	7
+	+	27	0
+	+	30	13
+	+	27	0
+	+	73	44
+	+	48	0
+	+	28	0
+	+	29	18
+	+	20	45
+	+	29	21
+	+	28	0
+	+	29	22
+	+	28	0
+	+	29	35
+	+	28	0
+	+	29	42
+	+	28	0
+	+	48	0
+	+	73	0
+	+	48	0
+	+	73	0
+	+	75	58
+	+	29	44
+	+	28	0
+	+	29	45
+	+	105	0
+	+	96	51
+	+	97	0
+	+	96	12
+	+	113	0
+	+	22	33
+	+	24	0
+	+	19	0
+	+	110	19
+	+	108	0
+	+	110	20
+	+	108	0
+	+	110	45
+	+	108	0
+	+	110	74
+	+	110	85
+	+	108	0
+	+	95	15
+	+	97	21
+	+	95	17
+	+	97	30
+	+	106	55
+	+	105	0
+	+	106	28
+	+	110	99
+	+	110	81
+	+	108	0
+	+	108	52
+	+	109	21
+	+	108	0
+	+	109	43
+	+	108	0
+	+	109	52
+	+	108	0
+	+	109	21
+	+	108	0
+	+	109	38
+	+	108	0
+	+	95	29
+	+	93	0
+	+	94	0
+	+	97	32
+	+	110	75
+	+	111	57
+	+	109	0
+	+	110	0
+	+	109	0
+
+> ~/code/va/spatial_data_pipeline/docker-compose.sql.yml
+	*	1649423758	0
+	"	8	65
+	^	8	66
+	.	8	65
+	+	8	65
+
+> ~/tasks.py
+	*	1649421914	0
+	"	1	0
+
+> ~/code/va/spatial_data_pipeline/sqlsvr_push/data_base.py
+	*	1649262324	0
+	"	315	0
+
+> ~/code/va/spatial_data_pipeline/sqlsvr_push/requirements.txt
+	*	1649262058	0
+	"	1	0
+
+> ~/code/va/spatial_data_pipeline/bin/docker.sh
+	*	1649261176	0
+	"	189	71
+	^	189	72
+	.	189	71
+	+	189	71
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/api.py
+	*	1649256542	0
+	"	614	4
+	.	87	0
+	+	339	64
+	+	488	30
+	+	489	28
+	+	490	21
+	+	489	0
+	+	490	43
+	+	489	0
+	+	490	58
+	+	488	0
+	+	490	59
+	+	488	0
+	+	490	71
+	+	489	0
+	+	490	74
+	+	488	0
+	+	489	0
+	+	490	36
+	+	488	0
+	+	489	0
+	+	490	0
+	+	490	110
+	+	489	0
+	+	506	21
+	+	506	58
+	+	489	0
+	+	490	62
+	+	489	0
+	+	490	34
+	+	467	21
+	+	470	68
+	+	467	69
+	+	472	40
+	+	1	0
+	+	521	22
+	+	524	0
+	+	522	19
+	+	523	26
+	+	537	35
+	+	523	0
+	+	537	0
+	+	542	62
+	+	513	0
+	+	507	0
+	+	500	0
+	+	526	61
+	+	529	15
+	+	530	78
+	+	531	14
+	+	533	36
+	+	535	36
+	+	538	38
+	+	540	60
+	+	541	64
+	+	546	32
+	+	551	42
+	+	559	63
+	+	551	74
+	+	557	10
+	+	556	49
+	+	555	69
+	+	558	65
+	+	560	38
+	+	567	27
+	+	572	43
+	+	551	0
+	+	565	73
+	+	566	22
+	+	565	33
+	+	562	33
+	+	564	30
+	+	561	27
+	+	563	9
+	+	564	0
+	+	588	28
+	+	592	18
+	+	596	13
+	+	608	0
+	+	595	39
+	+	596	0
+	+	616	35
+	+	599	37
+	+	602	18
+	+	605	46
+	+	606	23
+	+	606	37
+	+	617	0
+	+	616	0
+	+	617	0
+	+	592	79
+	+	589	0
+	+	593	78
+	+	594	12
+	+	600	72
+	+	603	78
+	+	12	0
+	+	10	13
+	+	87	26
+	+	86	0
+	+	87	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/postgres/pgconf/create_tables.sql
+	*	1649255138	0
+	"	60	21
+	^	61	37
+	.	61	36
+	+	36	46
+	+	37	0
+	+	50	1
+	+	50	0
+	+	38	25
+	+	44	28
+	+	49	35
+	+	50	2
+	+	52	47
+	+	62	12
+	+	62	0
+	+	61	7
+	+	53	20
+	+	54	18
+	+	55	15
+	+	56	21
+	+	57	21
+	+	58	20
+	+	59	18
+	+	60	21
+	+	61	36
+	e	44	15
+
+> ~/code/va/spatial_data_pipeline/NERD_tree_1
+	*	1649252342	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/auth.py
+	*	1649252073	0
+	"	28	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/utils.py
+	*	1649251681	0
+	"	71	20
+	^	71	21
+	.	71	20
+	+	71	20
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/nset_scraper.py
+	*	1649251021	0
+	"	7	0
+	^	63	12
+	.	73	0
+	+	9	0
+	+	44	30
+	+	3	46
+	+	44	43
+	+	45	0
+	+	59	26
+	+	59	19
+	+	59	0
+	+	56	0
+	+	60	7
+	+	60	0
+	+	61	12
+	+	64	20
+	+	56	23
+	+	64	23
+	+	44	0
+	+	61	135
+	+	64	41
+	+	64	100
+	+	64	143
+	+	66	232
+	+	66	132
+	+	68	71
+	+	69	77
+	+	71	100
+	+	72	42
+	+	61	77
+	+	62	0
+	+	64	39
+	+	64	40
+	+	64	74
+	+	64	73
+	+	64	74
+	+	64	126
+	+	66	115
+	+	68	54
+	+	69	60
+	+	71	45
+	+	72	32
+	+	71	0
+	+	75	20
+	+	64	45
+	+	71	32
+	+	72	32
+	+	64	25
+	+	71	25
+	+	72	25
+	+	64	42
+	+	70	86
+	+	71	0
+	+	72	29
+	+	71	53
+	+	72	44
+	+	71	0
+	+	66	0
+	+	64	73
+	+	66	69
+	+	66	115
+	+	68	54
+	+	69	60
+	+	66	69
+	+	68	0
+	+	69	0
+	+	70	49
+	+	71	0
+	+	68	29
+	+	71	24
+	+	72	45
+	+	73	42
+	+	64	28
+	+	66	0
+	+	69	67
+	+	70	48
+	+	73	45
+	+	62	73
+	+	75	34
+	+	72	0
+	+	75	35
+	+	72	0
+	+	75	44
+	+	73	0
+	+	62	74
+	+	73	0
+	+	75	0
+	+	64	43
+	+	73	48
+	+	65	0
+	+	64	43
+	+	67	0
+	+	64	41
+	+	75	9
+	+	74	0
+	+	73	45
+	+	65	0
+	+	62	79
+	+	64	8
+	+	73	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/crud_impl.py
+	*	1649250327	0
+	"	1	0
+	^	13	103
+	.	12	0
+	+	1	32
+	+	2	0
+	+	3	23
+	+	4	40
+	+	5	25
+	+	4	0
+	+	5	27
+	+	4	0
+	+	5	38
+	+	4	0
+	+	5	55
+	+	4	0
+	+	10	13
+	+	10	22
+	+	7	0
+	+	10	25
+	+	10	44
+	+	10	56
+	+	7	0
+	+	9	15
+	+	10	5
+	+	8	0
+	+	4	0
+	+	5	36
+	+	4	0
+	+	5	76
+	+	4	0
+	+	5	25
+	+	6	34
+	+	4	0
+	+	11	12
+	+	10	0
+	+	12	19
+	+	11	0
+	+	13	21
+	+	12	0
+	+	13	47
+	+	13	60
+	+	12	0
+	+	13	60
+	+	14	14
+	+	13	0
+	+	12	20
+	+	11	0
+	+	9	0
+	+	10	23
+	+	9	0
+	+	15	0
+	+	13	57
+	+	12	0
+	+	13	0
+	+	11	0
+	+	13	94
+	+	12	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/NERD_tree_1
+	*	1649186685	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/database_update.py
+	*	1649170247	0
+	"	11	0
+	^	157	43
+	.	156	0
+	+	85	14
+	+	96	23
+	+	86	0
+	+	85	0
+	+	86	34
+	+	85	38
+	+	86	36
+	+	87	0
+	+	86	38
+	+	85	35
+	+	87	42
+	+	88	42
+	+	89	38
+	+	90	38
+	+	91	42
+	+	92	38
+	+	93	38
+	+	94	42
+	+	95	42
+	+	96	39
+	+	82	0
+	+	81	70
+	+	100	0
+	+	101	10
+	+	165	0
+	+	101	23
+	+	110	0
+	+	102	0
+	+	104	12
+	+	108	0
+	+	104	12
+	+	101	11
+	+	107	19
+	+	105	0
+	+	104	0
+	+	104	28
+	+	105	28
+	+	106	28
+	+	107	28
+	+	105	0
+	+	112	5
+	+	71	31
+	+	111	0
+	+	147	0
+	+	112	30
+	+	113	0
+	+	124	0
+	+	123	15
+	+	116	0
+	+	115	25
+	+	116	0
+	+	115	27
+	+	116	27
+	+	117	27
+	+	118	28
+	+	119	27
+	+	120	27
+	+	121	27
+	+	122	27
+	+	123	27
+	+	146	0
+	+	128	29
+	+	146	0
+	+	129	0
+	+	146	0
+	+	144	0
+	+	143	15
+	+	132	0
+	+	131	31
+	+	132	0
+	+	131	33
+	+	132	33
+	+	133	33
+	+	134	33
+	+	135	33
+	+	136	32
+	+	135	37
+	+	136	33
+	+	137	33
+	+	138	33
+	+	139	33
+	+	140	33
+	+	141	33
+	+	142	33
+	+	143	34
+	+	123	28
+	+	80	0
+	+	165	0
+	+	8	0
+	+	5	0
+	+	152	36
+	+	153	48
+	+	154	46
+	+	155	34
+	+	156	46
+	+	157	39
+	+	156	0
+
+> ~/code/va/spatial_data_pipeline/sql/fill_tables.sql
+	*	1649162642	0
+	"	1	1
+
+> ~/code/va/spatial_data_pipeline/sql/create_tables.sql
+	*	1649162638	0
+	"	2	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/docker-compose.yml
+	*	1649100085	0
+	"	44	0
+	^	93	33
+	.	93	13
+	+	95	0
+	+	93	13
+
+> ~/interview.txt
+	*	1649098901	0
+	"	208	34
+	^	207	0
+	.	206	22
+	+	103	3
+	+	105	3
+	+	107	80
+	+	108	17
+	+	109	0
+	+	110	10
+	+	124	113
+	+	112	144
+	+	115	118
+	+	118	117
+	+	121	138
+	+	124	113
+	+	113	1
+	+	116	1
+	+	119	1
+	+	122	1
+	+	125	1
+	+	124	3
+	+	121	3
+	+	118	3
+	+	115	3
+	+	112	3
+	+	128	18
+	+	154	151
+	+	129	163
+	+	133	159
+	+	137	109
+	+	140	162
+	+	144	89
+	+	147	93
+	+	150	213
+	+	154	151
+	+	130	1
+	+	134	76
+	+	135	1
+	+	131	1
+	+	138	1
+	+	141	76
+	+	142	1
+	+	145	1
+	+	148	1
+	+	151	76
+	+	152	1
+	+	150	3
+	+	147	3
+	+	144	3
+	+	140	3
+	+	137	3
+	+	133	3
+	+	129	3
+	+	155	2
+	+	154	4
+	+	211	0
+	+	156	0
+	+	188	119
+	+	160	1
+	+	163	1
+	+	166	1
+	+	169	78
+	+	170	78
+	+	171	1
+	+	174	1
+	+	175	1
+	+	178	78
+	+	179	1
+	+	182	1
+	+	162	4
+	+	160	2
+	+	159	3
+	+	160	47
+	+	162	4
+	+	163	64
+	+	165	4
+	+	166	60
+	+	168	3
+	+	171	14
+	+	173	3
+	+	175	30
+	+	177	3
+	+	179	11
+	+	181	3
+	+	182	100
+	+	185	3
+	+	183	1
+	+	186	65
+	+	188	81
+	+	189	38
+	+	208	79
+	+	193	3
+	+	197	3
+	+	202	3
+	+	205	3
+	+	208	3
+	+	194	63
+	+	195	40
+	+	198	75
+	+	199	37
+	+	200	61
+	+	203	18
+	+	206	22
+
+> ~/elija_interview.txt
+	*	1649094675	0
+	"	5	0
+	^	9	7
+	.	9	6
+	+	11	2
+	+	2	47
+	+	4	16
+	+	7	52
+	+	11	0
+	+	9	6
+
+> ~/code/nset/common-package/src/setup.py
+	*	1649086228	0
+	"	8	0
+	.	8	0
+	+	8	16
+	+	9	0
+	+	8	0
+
+> ~/code/nset/common-package/src/README.md
+	*	1649086066	0
+	"	9	0
+
+> ~/code/nset/common-package/src/install.sh
+	*	1649086044	0
+	"	4	0
+
+> ~/code/nset/nsetscrapers/pypirc.cfg
+	*	1649085945	0
+	"	1	0
+
+> ~/code/nset/nsetscrapers/setup.py
+	*	1649085927	0
+	"	9	0
+	^	8	17
+	.	8	16
+	+	8	16
+
+> ~/code/nset/nsetscrapers/upload.sh
+	*	1649085916	0
+	"	34	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/code/nset/nsetscrapers/install.sh
+	*	1649085909	0
+	"	1	37
+	^	1	38
+	.	1	37
+	+	1	37
+
+> ~/code/nset/nsetscrapers/README.md
+	*	1649085804	0
+	"	19	0
+
+> ~/code/va/spatial_data_pipeline/webapp/backend/api.py
+	*	1649084966	0
+	"	151	34
+	.	2	0
+	+	2	0
+
+> ~/code/nset/common-package/docker-compose.test
+	*	1649079118	0
+	"	1	0
+
+> ~/code/nset/common-package/src/requirements.txt
+	*	1649079110	0
+	"	4	0
+	.	5	0
+	+	4	22
+	+	4	17
 	+	4	0
 	+	5	0
 
-> ~/code/eagle-i/common_package/test/test.py
-	*	1640029833	0
-	"	24	0
-	^	123	0
-	.	122	0
-	+	120	0
-	+	120	12
-	+	33	34
-	+	34	0
-	+	31	0
-	+	19	0
-	+	18	0
-	+	29	25
-	+	29	0
-	+	31	0
-	+	30	38
-	+	29	0
-	+	120	0
-	+	122	0
-	+	120	73
-	+	122	0
-	+	120	29
-	+	121	12
-	+	7	13
-	+	120	28
-	+	120	0
-	+	120	39
-	+	120	0
-	+	45	47
-	+	115	0
-	+	70	36
-	+	114	0
-	+	120	0
-	+	71	0
-	+	122	0
-	+	47	0
-	+	46	46
-	+	73	32
-	+	81	0
+> ~/code/nset/common-package/src/common/database.py
+	*	1649078848	0
+	"	121	11
+
+> ~/code/nset/common-package/src/common/mail.py
+	*	1649078025	0
+	"	84	0
+	^	84	41
+	.	84	40
+	+	53	13
+	+	1	0
+	+	84	28
 	+	83	0
-	+	86	44
-	+	91	22
-	+	116	0
-	+	115	0
-	+	122	0
+	+	84	54
+	+	83	0
+	+	86	12
+	+	86	0
+	+	87	34
+	+	83	8
+	+	86	0
+	+	85	22
+	+	84	32
+	+	84	0
+	+	25	48
+	+	27	34
+	+	28	21
+	+	27	37
+	+	25	51
+	+	29	21
+	+	35	39
+	+	80	0
+	+	83	0
+	+	81	20
+	+	81	0
+	+	84	25
+	+	84	0
+	+	84	54
+	+	84	0
+	+	83	28
+	+	83	0
+	+	84	46
+	+	83	0
+	+	84	54
+	+	83	0
+	+	83	64
+	+	83	59
+	+	83	38
+	+	83	0
+	+	84	33
+	+	83	0
+	+	84	28
+	+	25	0
+	+	11	0
+	+	6	0
+	+	25	8
+	+	25	10
+	+	25	19
+	+	25	20
+	+	25	62
+	+	25	22
+	+	25	0
+	+	6	0
+	+	84	24
+	+	83	0
+	+	84	44
+	+	82	0
+	+	83	0
+	+	84	40
 
-> ~/code/va/data_standardss/tests/data_upload_test.py
-	*	1640028837	0
-	"	9	14
-	^	9	16
-	.	9	15
-	+	10	0
-	+	9	15
+> ~/code/va/spatial_data_pipeline/docker-compose.yml
+	*	1648842304	0
+	"	6	0
 
-> ~/code/va/data_standardss/data_load/acs_api.py
-	*	1640028801	0
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/database
+	*	1648838922	0
 	"	1	0
 
-> ~/code/va/data_standardss/data_load/Handler.py
-	*	1640026087	0
-	"	1	0
-	^	3	0
-	.	2	0
+> ~/code/nset/nsetscrapers/scrapers/mixins/arcgis.py
+	*	1648836231	0
+	"	32	53
+	^	38	38
+	.	38	37
 	+	1	0
-	+	45	13
-	+	46	0
-	+	5	0
-	+	1	0
-	+	1	26
-	+	2	0
+	+	38	37
 
-> ~/code/va/data_standardss/data_load/LICENSE
-	*	1640023899	0
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/api.py`
+	*	1648827295	0
 	"	1	0
-	^	19	9
-	.	19	8
-	+	1	72
-	+	1	19
-	+	19	8
 
-> ~/code/va/data_standardss/.dockerignore
-	*	1640023600	0
-	"	9	19
-	^	9	20
-	.	9	19
-	+	8	15
-	+	12	2
-	+	2	0
-	+	9	19
-
-> ~/code/va/data_standardss/.gitignore
-	*	1640023508	0
-	"	2	0
-	^	9	5
-	.	9	4
-	+	8	4
-	+	9	0
-	+	9	4
-
-> ~/code/va/data_standardss/data_load/pypirc.cfg
-	*	1640022060	0
-	"	1	0
-	^	1	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/code/va/data_standardss/data_load/scripts/update_docs.sh
-	*	1640021974	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	2	32
-
-> ~/code/va/data_standardss/data_load/src/__init__.py
-	*	1640021591	0
-	"	4	56
-	^	4	57
-	.	4	56
-	+	5	0
-	+	4	56
-
-> ~/code/va/data_standardss/data_load/NERD_tree_3
-	*	1640020201	0
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/NERD_tree_2
+	*	1648827009	0
 	"	8	0
 	.	1	0
 	+	1	0
 
-> ~/code/va/data_standardss/NERDTree
-	*	1640018991	0
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/scraper.py
+	*	1648826999	0
+	"	94	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/NERD_tree_1
+	*	1648826986	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~/code/nset/common-package/Dockerfile
+	*	1648824963	0
+	"	12	0
+	.	12	0
+	+	12	0
+
+> ~/code/nset/common-package/test/NERD_tree_1
+	*	1648731146	0
+	"	15	0
+	.	1	0
+	+	1	0
+
+> /mnt/c/Users/aoe/Desktop/test/database.py
+	*	1648671848	0
+	"	4	21
+	^	5	22
+	.	4	0
+	+	1	19
+	+	2	38
+	+	3	11
+	+	2	0
+	+	4	14
+	+	3	0
+	+	4	0
+	+	4	25
+	+	3	0
+	+	4	35
+	+	5	18
+	+	4	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/collector_scraper.py
+	*	1648646187	0
+	"	11	22
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/webapp/backend/src/wxscraper.py
+	*	1648646057	0
+	"	13	23
+	.	40	0
+	+	40	0
+
+> ~/code/va/spatial_data_pipeline/webapp/frontend/package.json
+	*	1648558222	0
 	"	1	0
 
-> ~/code/eagle-i/common_package/src/common/logz.py
-	*	1640018256	0
-	"	8	0
-	^	41	8
-	.	41	8
-	+	33	0
-	+	32	0
-	+	41	8
+> ~/code/va/spatial_data_pipeline/load-package/src/load/handler.py
+	*	1648142278	0
+	"	286	0
+
+> ~/code/va/spatial_data_pipeline/webapp/backend/dock
+	*	1648136671	0
+	"	1	0
+
+> /mnt/c/Users/aoe/Desktop/16.txt
+	*	1648060706	0
+	"	13	42
+	.	18	0
+	+	2	0
+	+	17	36337
+	+	17	0
+	+	18	37298
+	+	18	36639
+	+	18	0
+
+> /mnt/c/Users/aoe/Documents/code/securoute/application/psaccidentservice/PlanetSenseAccidentService/src/main/resources/application.properties
+	*	1648060335	0
+	"	6	0
+	^	8	55
+	.	8	54
+	+	7	28
+	+	8	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	8	54

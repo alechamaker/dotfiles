@@ -13,11 +13,15 @@ endif
 nnoremap <C-Tab> <C-w>w
 nnoremap <C-S-Tab> <C-w>W
 
+set cursorline
+
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
 set scrolloff=8
+set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
+set laststatus=2
 
 nmap <silent> j gj
 nmap <silent> k gk
@@ -36,6 +40,8 @@ let g:pydocstring_formatter = 'sphinx'
 set listchars=tab:▸\ ,trail:·
 set list
 set foldmethod=indent
+
+let g:vim_json_conceal=0
 
 let NERDTreeMapOpenInTab='n'
 
@@ -70,11 +76,17 @@ Plug 'neoclide/coc-python'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 Plug 'apalmer1377/factorus'
 
+"" Frontend plugins
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+
 " " Python indenting
 Plug 'Vimjas/vim-python-pep8-indent'
 
 " " Python flake8
 Plug 'nvie/vim-flake8'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 " set the runtime path to include Vundle and initialize

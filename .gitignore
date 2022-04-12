@@ -1,1 +1,38 @@
-"^[a-zA-Z0-9_]*$"
+# ignore everything
+/*
+
+# do not ignore dot files
+!.*
+
+# ignore all swap files
+.*.*.swp
+.*.*.swo
+.*.swp
+.*.swo
+
+
+# ignore all resurrect files
+.tmux/resurrect/tmux_resurrect_*
+
+# ignore the ssh dir
+.ssh
+.python*
+.yarnrc
+.wget-hsts
+.uszipcode
+.sudo_as_admin_successful
+.npm
+.motd_shown
+.m2
+.jdks
+.google-cookie
+.git-credentials
+.docker
+.azure
+.aws
+.bash_history
+.cache
+.landscape
+.local
+
+
