@@ -112,22 +112,22 @@ fi
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
+# if ! shopt -oq posix; then
+#   if [ -f /usr/share/bash-completion/bash_completion ]; then
+#     . /usr/share/bash-completion/bash_completion
+#   elif [ -f /etc/bash_completion ]; then
+#     . /etc/bash_completion
+#   fi
+# fi
 
 
 # if running bash
-if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
-fi
+#if [ -n "$BASH_VERSION" ]; then
+#    # include .bashrc if it exists
+#    if [ -f "$HOME/.bashrc" ]; then
+#	. "$HOME/.bashrc"
+#    fi
+#fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -138,15 +138,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-
-_beep () {
-      powershell.exe "[console]::beep($1,$2)"
-  }
-
-_say()
-{
-    powershell.exe "(New-Object -ComObject Sapi.spvoice).speak(\"$1\")"
-}
 
 _kill_docker()
 {
@@ -159,13 +150,9 @@ _dbr()
 }
 
 
-alias  bleep="_beep 1000 800"  # A strong bleep (for profanity)
-alias   beep="_beep 2000 300"  # Quick yet noticeable beep
-alias   blip="_beep 4000  80"  # A less distracting blip
-alias    say="_say"
 alias  dkill="_kill_docker"
 alias  dlogs="docker-compose logs -f"
 alias    dbr="_dbr"
 alias pylint='pylint --disable=W1203,W1201'
 
-# set PS1
+source ~/.git-prompt.sh
