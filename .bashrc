@@ -19,6 +19,10 @@ force_color_prompt=yes
 #     }
 #PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch())\[\033[00m\] $ "
 
+export PS1="\[\033\]\[[1;31m\]┌[\[\033\]\[[1;36m\]🧙\[\u\]\[\033\]\[[1;31m\]@\[\033\]\[[0;35m\]$(uname -n)\[\033\]\[[1;31m\]]→\[\033\]\[[1;32m\](\[\w\])
+\[\033\]\[[1;31m\]┕━┳\[\033\]\[[1;37m\][\[\t\]⌚]\[\033\]\[[1;33m\]\$(__git_ps1)
+\[\033\]\[[1;31m\]  ┗>\[\033\]\[[0;37m\] "
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
@@ -63,11 +67,6 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -101,10 +100,6 @@ alias l='ls -CF'
 alias dco='docker-compose'
 alias dc='/usr/bin/docker-clean'
 
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -124,3 +119,53 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+_beep () {
+      powershell.exe "[console]::beep($1,$2)"
+  }
+
+_say()
+{
+    powershell.exe "(New-Object -ComObject Sapi.spvoice).speak(\"$1\")"
+}
+
+_kill_docker()
+{
+    docker kill $(docker ps -q)
+}
+
+_dbr()
+{
+    docker-compose build "$@" && docker-compose restart "$@"
+}
+
+
+alias  bleep="_beep 1000 800"  # A strong bleep (for profanity)
+alias   beep="_beep 2000 300"  # Quick yet noticeable beep
+alias   blip="_beep 4000  80"  # A less distracting blip
+alias    say="_say"
+alias  dkill="_kill_docker"
+alias  dlogs="docker-compose logs -f"
+alias    dbr="_dbr"
+alias pylint='pylint --disable=W1203,W1201'
+
+# set PS1

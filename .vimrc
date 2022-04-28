@@ -4,10 +4,10 @@ filetype off                  " required
 " " disable bell
 set novisualbell
 
-if has('win32')
-	" " Avoid mswin.vim making Ctrl-v act as paste
-	noremap <C-V> <C-V>
-endif
+" " if has('win32')
+" " Avoid mswin.vim making Ctrl-v act as paste
+" " 	noremap <C-V> <C-V>
+" " endif
 
 " " CTRL-w to split window
 nnoremap <C-Tab> <C-w>w
@@ -36,6 +36,8 @@ nmap <silent> <C-p> <Plug>(pydocstring)
 " " let g:pydocstring_templates_path = '/home/aoe/.vim/pydocstringtest.format'
 let g:pydocstring_formatter = 'sphinx'
 
+" " disable coc warning message
+let g:coc_disable_startup_warning = 1
 " " 
 set listchars=tab:▸\ ,trail:·
 set list
@@ -71,7 +73,7 @@ endif
 call plug#begin('~/.vim/plugged')
 ""Plug 'numirias/semshi'
 
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc-python'
 Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 Plug 'apalmer1377/factorus'
@@ -109,7 +111,7 @@ Plugin 'tpope/vim-fugitive'
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
 " " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+" " Plugin 'git://git.wincent.com/command-t.git'
 " " git repos on your local machine (i.e. when working on your own plugin)
 " "Plugin 'file:///home/gmarik/path/to/plugin'
 " " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -147,6 +149,17 @@ set colorcolumn=80
 " " start nerdtree when vim starts up
 " " autocmd vimenter * NERDTree
 autocmd vimenter * colorscheme gruvbox
+
+" " Install plugins when vim starts
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
+
+autocmd VimEnter *
+    \if len(filter(values(g:plugins), '!isdirectory(v:val.dir)'))
+    \|   PluginInstall
+    \| endif
  
 set background=dark
 let g:gruvbox_contrast_dark='gruvbox'

@@ -1,20 +1,30 @@
 #!/bin/bash
 
-mv ~/.bashrc ~/.bashrc_old
-mv ~/.git ~/.git_old
-mv ~/.gitconfig ~/.gitconfig_old
-mv ~/.tmux ~/.tmux_old
-mv ~/.tmux.config ~/.tmux.config_old
-mv ~/.vim ~/.vim_old
-mv ~/.viminfo ~/.viminfo_old
-mv ~/.vimrc ~/.vimrc_old
+curl -s -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+mv ~/.bashrc ~/.bashrc_old &> /dev/null
+mv ~/.git ~/.git_old &> /dev/null
+mv ~/.gitconfig ~/.gitconfig_old &> /dev/null
+mv ~/.tmux ~/.tmux_old &> /dev/null
+mv ~/.tmux.config ~/.tmux.config_old &> /dev/null
+mv ~/.vim ~/.vim_old &> /dev/null
+mv ~/.viminfo ~/.viminfo_old &> /dev/null
+mv ~/.vimrc ~/.vimrc_old &> /dev/null
 
-cp -R ~/.bashrc ~/
-cp -R ~/.git ~/
-cp -R ~/.gitconfig ~/
-cp -R ~/.tmux ~/
-cp -R ~/.tmux.config ~/
-cp -R ~/.vim ~/
-cp -R ~/.viminfo ~/
-cp -R ~/.vimrc ~/
+cp -R .bashrc ~/ &> /dev/null
+cp -R .git ~/ &> /dev/null
+cp -R .gitconfig ~/ &> /dev/null
+cp -R .tmux ~/ &> /dev/null
+cp -R .tmux.config ~/ &> /dev/null
+cp -R .vim ~/ &> /dev/null
+cp -R .viminfo ~/ &> /dev/null
+cp -R .vimrc ~/ &> /dev/null
+
+which node &> /dev/null
+
+if [ $? == 1 ]; then
+	echo "Please install 'nodejs' for proper vim functionality."
+fi
+
+echo "Please run :PlugInstall and :PluginInstall in vim."
+echo "Execute command 'source ~/.bashrc' and 'source ~/.git-prompt.sh'"
 
