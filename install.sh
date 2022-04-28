@@ -5,7 +5,7 @@ mv ~/.bashrc ~/.bashrc_old &> /dev/null
 mv ~/.git ~/.git_old &> /dev/null
 mv ~/.gitconfig ~/.gitconfig_old &> /dev/null
 mv ~/.tmux ~/.tmux_old &> /dev/null
-mv ~/.tmux.config ~/.tmux.config_old &> /dev/null
+mv ~/.tmux.conf ~/.tmux.conf_old &> /dev/null
 mv ~/.vim ~/.vim_old &> /dev/null
 mv ~/.viminfo ~/.viminfo_old &> /dev/null
 mv ~/.vimrc ~/.vimrc_old &> /dev/null
@@ -14,7 +14,7 @@ cp -R .bashrc ~/ &> /dev/null
 cp -R .git ~/ &> /dev/null
 cp -R .gitconfig ~/ &> /dev/null
 cp -R .tmux ~/ &> /dev/null
-cp -R .tmux.config ~/ &> /dev/null
+cp -R .tmux.conf ~/ &> /dev/null
 cp -R .vim ~/ &> /dev/null
 cp -R .viminfo ~/ &> /dev/null
 cp -R .vimrc ~/ &> /dev/null
