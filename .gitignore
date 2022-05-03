@@ -4,6 +4,11 @@
 # do not ignore dot files
 !.*
 
+# do not ignore md files
+!*.md
+!LICENSE.txt
+!images/
+
 # ignore all swap files
 .*.*.swp
 .*.*.swo
