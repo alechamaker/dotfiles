@@ -1,6 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+scriptencoding utf-8
+set encoding=utf-8
+
 " " disable bell
 set novisualbell
 
