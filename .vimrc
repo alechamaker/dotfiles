@@ -69,7 +69,7 @@ Plugin 'VundleVim/Vundle.vim'
 if iCanHazVundle == 0
   echo "Installing Bundles, please ignore key map error messages"
   echo ""
-  :PluginInstall
+  :PluginInstall | q
 endif
 " END - Setting up Vundle - the vim plugin bundler
 
@@ -153,17 +153,6 @@ set colorcolumn=80
 " " autocmd vimenter * NERDTree
 autocmd vimenter * colorscheme gruvbox
 
-" " Install plugins when vim starts
-autocmd VimEnter *
-  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall --sync | q
-  \| endif
-
-autocmd VimEnter *
-    \if len(filter(values(g:plugins), '!isdirectory(v:val.dir)'))
-    \|   PluginInstall
-    \| endif
- 
 set background=dark
 let g:gruvbox_contrast_dark='gruvbox'
 filetype plugin indent on
