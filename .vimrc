@@ -61,7 +61,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 " " let Vundle manage Vundle, required
-Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'neoclide/coc.nvim'
 Plugin 'neoclide/coc-python'
 Plugin 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 Plugin 'apalmer1377/factorus'
