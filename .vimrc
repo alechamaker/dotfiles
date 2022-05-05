@@ -175,10 +175,7 @@ filetype plugin indent on    " required
 " "
 " " see :h vundle for more details or wiki for FAQ
 " " Put your non-Plugin stuff after this line
-autocmd VimEnter *
-  \  if !empty(filter(copy(g:plugs), '!isdirectory(v:val.dir)'))
-  \|   PlugInstall | q
-  \| endif
+
 let g:clang_library_path='/usr/lib/llvm-3.8/lib'
 let g:clang_library_path='/usr/lib64/libclang.so.3.8'
 " " let g:pydocstring_templates_path = '/home/aoe/.vim/pydocstringtest.format'
