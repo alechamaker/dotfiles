@@ -36,11 +36,6 @@ inoremap <S-Tab> <C-d>
 
 
 nmap <silent> <C-p> <Plug>(pydocstring)
-" " let g:pydocstring_templates_path = '/home/aoe/.vim/pydocstringtest.format'
-let g:pydocstring_formatter = 'sphinx'
-
-" " disable coc warning message
-let g:coc_disable_startup_warning = 1
 " " 
 set listchars=tab:▸\ ,trail:·
 set list
@@ -48,7 +43,6 @@ set foldmethod=indent
 
 let g:vim_json_conceal=0
 
-let NERDTreeMapOpenInTab='n'
 
 
 " START - Setting up Vundle - the vim plugin bundler
@@ -62,47 +56,30 @@ if !filereadable(vundle_readme)
   let iCanHazVundle=0
 endif
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#rc()
+call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-if iCanHazVundle == 0
-  echo "Installing Bundles, please ignore key map error messages"
-  echo ""
-  :PluginInstall
-endif
-" END - Setting up Vundle - the vim plugin bundler
-
-call plug#begin('~/.vim/plugged')
-""Plug 'numirias/semshi'
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc-python'
-Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
-Plug 'apalmer1377/factorus'
+" " let Vundle manage Vundle, required
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'neoclide/coc-python'
+Plugin 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
+Plugin 'apalmer1377/factorus'
 
 "" Frontend plugins
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
-Plug 'maxmellon/vim-jsx-pretty'
+Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " " Python indenting
-Plug 'Vimjas/vim-python-pep8-indent'
+Plugin 'Vimjas/vim-python-pep8-indent'
 
 " " Python flake8
-Plug 'nvie/vim-flake8'
-Plug 'vim-syntastic/syntastic'
-call plug#end()
+Plugin 'nvie/vim-flake8'
+Plugin 'vim-syntastic/syntastic'
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
-syntax on
-set t_Co=256
-" " alternatively, pass a path where Vundle should install plugins
-" "call vundle#begin('~/some/path/here')
-"
-" " let Vundle manage Vundle, required
+
+
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'davidhalter/jedi-vim'
@@ -138,10 +115,31 @@ Plugin 'Yggdroot/indentLine'
 " " Pretty colored brackets
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'xavierd/clang_complete'
-let g:clang_library_path='/usr/lib/llvm-3.8/lib'
-let g:clang_library_path='/usr/lib64/libclang.so.3.8'
 " " pretty theme
 Plugin 'morhetz/gruvbox'
+
+call vundle#end()            " required
+
+if iCanHazVundle == 0
+  echo "Installing Bundles, please ignore key map error messages"
+  echo ""
+  :PluginInstall
+endif
+" END - Setting up Vundle - the vim plugin bundler
+
+"call plug#begin('~/.vim/plugged')
+""Plug 'numirias/semshi'
+
+"call plug#end()
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#rc()
+syntax on
+set t_Co=256
+" " alternatively, pass a path where Vundle should install plugins
+" "call vundle#begin('~/some/path/here')
+"
 " "let g:gruvbox_contrast_dark = 'soft'
 set nu
 set colorcolumn=80
@@ -163,7 +161,6 @@ set shiftwidth=4
 " " On pressing tab, insert 4 spaces
 set expandtab
 " "
-call vundle#end()            " required
 filetype plugin indent on    " required
 " " To ignore plugin indent changes, instead use:
 " "filetype plugin on
@@ -182,3 +179,11 @@ autocmd VimEnter *
   \  if !empty(filter(copy(g:plugs), '!isdirectory(v:val.dir)'))
   \|   PlugInstall | q
   \| endif
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
+let g:clang_library_path='/usr/lib64/libclang.so.3.8'
+" " let g:pydocstring_templates_path = '/home/aoe/.vim/pydocstringtest.format'
+let g:pydocstring_formatter = 'sphinx'
+
+" " disable coc warning message
+let g:coc_disable_startup_warning = 1
+let NERDTreeMapOpenInTab='n'
