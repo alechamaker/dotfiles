@@ -80,7 +80,6 @@ Plugin 'vim-syntastic/syntastic'
 
 
 
-Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'davidhalter/jedi-vim'
 "
