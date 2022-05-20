@@ -69,9 +69,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+### Tmux status bar and helpful ps1 prompt
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+### Tmux split with vim
 [![Product Name Screen Shot][product-screenshot1]](https://example.com)
+
+### Linting for many lanuages
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -228,3 +233,4 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/tmux_ps1.png
 [product-screenshot1]: images/tmux_vim.png
+[product-screenshot2]: images/linting.png
