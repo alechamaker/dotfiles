@@ -114,7 +114,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
    ```sh
    git clone https://code.ornl.gov/aoe/dotfiles
    ```
-2. Install NPM packages
+2. Install dotfiles
    ```sh
    cd dotfiles && ./install.sh
    ```
