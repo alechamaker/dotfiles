@@ -22,23 +22,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
-  </a>
+  <img src="images/logo.jpg" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Dotfiles</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    dotfiles to make my life easier
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://code.ornl.gov/aoe/dotfiles">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://code.ornl.gov/aoe/dotfiles/-/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://code.ornl.gov/aoe/dotfiles/-/issues">Request Feature</a>
   </p>
 </div>
 
@@ -230,4 +225,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/tmux_ps1.png
