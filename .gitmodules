@@ -1,0 +1,6 @@
+[submodule "tmux-power"]
+	path = tmux-power
+	url = https://github.com/alechamaker/tmux-power.git
+[submodule ".tmux/plugins/tmux-power"]
+	path = .tmux/plugins/tmux-power
+	url = https://github.com/alechamaker/tmux-power.git

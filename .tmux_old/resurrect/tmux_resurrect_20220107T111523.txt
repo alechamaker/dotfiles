@@ -1,0 +1,9 @@
+pane	0	0	1	:*Z	0	:/home/aoe/code/va/data_standardss	0	docker	:docker compose --compatibility up --build
+pane	0	0	1	:*Z	1	:/home/aoe/code/va/data_standardss/hrsa_data_loader	1	ssh	:ssh aoe@edh01.ornl.gov
+pane	0	0	1	:*Z	2	:/home/aoe/code/va/data_standardss/hrsa_data_loader	0	vim	:vim transform.py
+pane	1	0	1	:*	0	:/home/aoe	1	bash	:
+pane	2	0	1	:*	0	:/home/aoe/code/va/data_standardss	1	bash	:
+window	0	0	:[tmux]	1	:*Z	4d3d,145x35,0,0[145x17,0,0{72x17,0,0,7,72x17,73,0,16},145x17,0,18,15]	:
+window	1	0	:bash	1	:*	cb02,120x29,0,0,5	:
+window	2	0	:bash	1	:*	cb03,120x29,0,0,6	:
+state	0	1
