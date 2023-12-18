@@ -156,3 +156,8 @@ alias    dbr="_dbr"
 alias pylint='pylint --disable=W1203,W1201'
 
 source ~/.git-prompt.sh
+
+# Launch tmux at login time
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+      exec tmux
+fi
