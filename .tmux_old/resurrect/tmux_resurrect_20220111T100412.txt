@@ -1,5 +1,0 @@
-pane	0	0	1	:*Z	0	:/home/aoe/code/va/data_standardss/cms_data_loader	1	vim	:vim grab.py
-pane	0	0	1	:*Z	1	:/home/aoe/code/va/data_standardss/cms_data_loader	0	vim	:vim Dockerfile
-pane	0	0	1	:*Z	2	:/home/aoe/code/va/data_standardss/cms_data_loader	0	vim	:vim transform.py
-window	0	0	:vim	1	:*Z	b00e,145x35,0,0[145x17,0,0{72x17,0,0,0,72x17,73,0,2},145x17,0,18,1]	:
-state	0	

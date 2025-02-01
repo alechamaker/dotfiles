@@ -1,5 +1,0 @@
-pane	0	0	1	:*Z	0	:/mnt/c/Users/aoe/Desktop	0	vim	:vim add_county_data.py
-pane	0	0	1	:*Z	1	:/mnt/c/Users/aoe/Desktop	0	bash	:
-pane	0	0	1	:*Z	2	:/mnt/c/Users/aoe/Desktop	1	ssh	:ssh aoe@edh01.ornl.gov
-window	0	0	:ssh	1	:*Z	cc69,145x35,0,0[145x17,0,0,0,145x17,0,18{72x17,0,18,1,72x17,73,18,2}]	:
-state	0	

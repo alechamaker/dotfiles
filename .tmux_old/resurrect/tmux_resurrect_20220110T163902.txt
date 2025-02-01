@@ -1,4 +1,0 @@
-pane	0	0	1	:*Z	0	:/home/aoe/code/va/data_standardss	0	bash	:
-pane	0	0	1	:*Z	1	:/home/aoe/code/va/data_standardss	1	bash	:
-window	0	0	:bash	1	:*Z	8373,145x35,0,0[145x17,0,0,1,145x17,0,18,2]	:
-state	0	

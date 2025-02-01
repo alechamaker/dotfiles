@@ -1,4 +1,0 @@
-pane	0	0	1	:*	0	:/mnt/c/Users/aoe/Desktop	0	vim	:vim add_county_data.py
-pane	0	0	1	:*	1	:/mnt/c/Users/aoe/Desktop	1	bash	:
-window	0	0	:bash	1	:*	0372,145x35,0,0[145x17,0,0,0,145x17,0,18,3]	:
-state	0	

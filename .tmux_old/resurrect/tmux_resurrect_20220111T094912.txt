@@ -1,5 +1,0 @@
-pane	0	0	1	:*	0	:/home/aoe/code/va/data_standardss	1	docker	:docker compose --compatibility up --build
-pane	0	0	1	:*	1	:/home/aoe/code/va/data_standardss/cms_data_loader	0	vim	:vim Dockerfile
-pane	0	0	1	:*	2	:/home/aoe/code/va/data_standardss/cms_data_loader	0	vim	:vim transform.py
-window	0	0	:docker	1	:*	b00e,145x35,0,0[145x17,0,0{72x17,0,0,0,72x17,73,0,2},145x17,0,18,1]	:
-state	0	

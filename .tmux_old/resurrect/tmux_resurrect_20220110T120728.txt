@@ -1,4 +1,0 @@
-pane	0	0	1	:*	0	:/mnt/c/Users/aoe/Desktop	0	ssh	:ssh aoe@edh01.ornl.gov
-pane	0	0	1	:*	1	:/mnt/c/Users/aoe/Desktop	1	vim	:vim scp://aoe@ehd01.ornl.gov/~/water/merge/insert_county.py
-window	0	0	:bash	1	:*	8378,145x35,0,0[145x17,0,0,3,145x17,0,18,4]	:
-state	0	

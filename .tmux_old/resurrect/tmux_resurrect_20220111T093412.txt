@@ -1,4 +1,0 @@
-pane	0	0	1	:*	0	:/home/aoe/code/va/data_standardss	1	bash	:
-pane	0	0	1	:*	1	:/home/aoe/code/va/data_standardss/cms_data_loader	0	vim	:vim transform.py
-window	0	0	:bash	1	:*	0371,145x35,0,0[145x17,0,0,0,145x17,0,18,1]	:
-state	0	

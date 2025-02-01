@@ -1,0 +1,62 @@
+super + r
+    bspc node @parent -r 90
+
+super + shift + r
+    bspc node @/ -r 90
+
+super + Return
+    kitty --watcher ~/.config/kitty/kittens/autofontsize-watcher/main.py || xterm
+
+super + Escape
+    pkill -usr1 -x sxhkd
+
+super + {_,shift + }w
+    bspc node -{c,k}
+
+super + m
+    bspc desktop -l next
+
+super + {t,shift + t,s,f}
+    bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+super + ctrl + {x,y,z}
+    bspc node -g {locked,sticky,private}
+
+super + {_,shift + }{h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+super + p
+    flameshot gui
+
+ctrl + super + p
+    flameshot gui
+
+super + ctrl + p
+    xcolor | tr -d '\n' | xclip -selection c
+
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+super + ctrl + {h,j,k,l}
+    bspc node -p {west,south,north,east}
+
+super + ctrl + space
+    bspc node -p cancel
+
+super + ctrl + shift + space
+    bspc query -n -d | xargs -i id -n 1 bspc node id -p cancel
+
+super + alt + {h,j,k,l}
+    bspc node -z {Left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+super + alt + shift + {h,j,k,l}
+    bspc node -z {right -20 0,top 0 20,bottom 0 -20,Left 20 0}
+
+super + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + space
+    dmenu_run
+
+super + shift + Escape
+  systemctl suspend
